@@ -1,0 +1,20 @@
+FIVE-CARD PROBABILITY ENGINE VALIDATION PASSED
+17/17 checks passed
+
+✓ 53-card deck has 2,869,685 five-card combinations
+✓ 54-card deck has 3,162,510 five-card combinations
+✓ 55-card deck has 3,478,761 five-card combinations
+✓ A fixed pair appears in C(53,3) five-card hands in a 55-card deck
+✓ Five-card enumerator visits every C(7,5) combination
+✓ Dancers uses an exact closed-form count without storing its card IDs
+✓ Dancers probability uses the 53-card fixed-pair count
+✓ Closed-form-only calculation does not enumerate combinations
+✓ Virtual self may be enabled for gameplay without requiring a player-specific probability
+✓ Probability results explicitly exclude virtual self
+✓ Virtual-self gameplay setting does not change a hand probability
+✓ Player-specific probability inputs are rejected
+✓ Jersey Pair exact count matches any specified pair
+✓ Family Album exact count matches any specified pair
+✓ Exact-pair validation enumerates all 53-card combinations
+✓ Ordinary poker categories partition the entire 53-card five-card space
+✓ Every ordinary-poker probability is exact

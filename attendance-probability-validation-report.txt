@@ -1,0 +1,31 @@
+ATTENDANCE PROBABILITY AUDIT PASSED
+27/27 checks passed
+Independent samples per roster: 2000
+
+✓ Six-player five-card gameplay offers 4, 5, and 6 represented players
+✓ Six-player five-card probability ranking stops at five physical players
+✓ Six Players Represented shares the physical rank of Five Players Represented
+✓ Eight Players Represented shares the physical rank of Seven Players Represented
+✓ Virtual self does not alter attendance hands with 2 players
+✓ Virtual self does not alter attendance hands with 3 players
+✓ Virtual self does not alter attendance hands with 4 players
+✓ One 8 represents only one of three brothers — expected 1, got 1
+✓ Mixed household portraits can represent four selected players — expected 4, got 4
+✓ Five physical cards can represent five selected players — expected 5, got 5
+✓ Fast attendance assignment matches independent DP for 2-player roster — 2000 sampled hands
+✓ Fast attendance assignment matches independent DP for 3-player roster — 2000 sampled hands
+✓ Fast attendance assignment matches independent DP for 4-player roster — 2000 sampled hands
+✓ Fast attendance assignment matches independent DP for 6-player roster — 2000 sampled hands
+✓ attendance_2_of_2 exact 53-card count is stable — expected 249123, got 249123
+✓ 2-player attendance counts are cumulative
+✓ attendance_2_of_3 exact 53-card count is stable — expected 1229105, got 1229105
+✓ attendance_3_of_3 exact 53-card count is stable — expected 283205, got 283205
+✓ 3-player attendance counts are cumulative
+✓ attendance_3_of_4 exact 53-card count is stable — expected 154573, got 154573
+✓ attendance_4_of_4 exact 53-card count is stable — expected 6226, got 6226
+✓ 4-player attendance counts are cumulative
+✓ attendance_4_of_6 exact 53-card count is stable — expected 64099, got 64099
+✓ attendance_5_of_6 exact 53-card count is stable — expected 2046, got 2046
+✓ 6-player attendance counts are cumulative
+✓ Turning on gameplay virtual self does not change attendance probability counts
+✓ Five-card probability output never creates a six-player physical probability hand

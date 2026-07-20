@@ -1,0 +1,590 @@
+HAND LIBRARY VALIDATION PASSED
+587/587 checks passed
+
+✓ Every hand ID is unique
+✓ handById contains every definition
+✓ There are eight selectable hands — 8
+✓ There is one generated attendance family
+✓ The library contains built-in hands
+✓ high_card has a display name
+✓ high_card uses a known availability
+✓ high_card uses a known category
+✓ high_card uses a known evaluator
+✓ high_card uses a known ranking mode
+✓ high_card has supported formats
+✓ high_card availability flags are exclusive
+✓ high_card has a valid minimum physical-card count
+✓ high_card has a valid contributing-slot count
+✓ one_pair has a display name
+✓ one_pair uses a known availability
+✓ one_pair uses a known category
+✓ one_pair uses a known evaluator
+✓ one_pair uses a known ranking mode
+✓ one_pair has supported formats
+✓ one_pair availability flags are exclusive
+✓ one_pair has a valid minimum physical-card count
+✓ one_pair has a valid contributing-slot count
+✓ two_pair has a display name
+✓ two_pair uses a known availability
+✓ two_pair uses a known category
+✓ two_pair uses a known evaluator
+✓ two_pair uses a known ranking mode
+✓ two_pair has supported formats
+✓ two_pair availability flags are exclusive
+✓ two_pair has a valid minimum physical-card count
+✓ two_pair has a valid contributing-slot count
+✓ three_of_a_kind has a display name
+✓ three_of_a_kind uses a known availability
+✓ three_of_a_kind uses a known category
+✓ three_of_a_kind uses a known evaluator
+✓ three_of_a_kind uses a known ranking mode
+✓ three_of_a_kind has supported formats
+✓ three_of_a_kind availability flags are exclusive
+✓ three_of_a_kind has a valid minimum physical-card count
+✓ three_of_a_kind has a valid contributing-slot count
+✓ straight has a display name
+✓ straight uses a known availability
+✓ straight uses a known category
+✓ straight uses a known evaluator
+✓ straight uses a known ranking mode
+✓ straight has supported formats
+✓ straight availability flags are exclusive
+✓ straight has a valid minimum physical-card count
+✓ straight has a valid contributing-slot count
+✓ flush has a display name
+✓ flush uses a known availability
+✓ flush uses a known category
+✓ flush uses a known evaluator
+✓ flush uses a known ranking mode
+✓ flush has supported formats
+✓ flush availability flags are exclusive
+✓ flush has a valid minimum physical-card count
+✓ flush has a valid contributing-slot count
+✓ full_house has a display name
+✓ full_house uses a known availability
+✓ full_house uses a known category
+✓ full_house uses a known evaluator
+✓ full_house uses a known ranking mode
+✓ full_house has supported formats
+✓ full_house availability flags are exclusive
+✓ full_house has a valid minimum physical-card count
+✓ full_house has a valid contributing-slot count
+✓ four_of_a_kind has a display name
+✓ four_of_a_kind uses a known availability
+✓ four_of_a_kind uses a known category
+✓ four_of_a_kind uses a known evaluator
+✓ four_of_a_kind uses a known ranking mode
+✓ four_of_a_kind has supported formats
+✓ four_of_a_kind availability flags are exclusive
+✓ four_of_a_kind has a valid minimum physical-card count
+✓ four_of_a_kind has a valid contributing-slot count
+✓ straight_flush has a display name
+✓ straight_flush uses a known availability
+✓ straight_flush uses a known category
+✓ straight_flush uses a known evaluator
+✓ straight_flush uses a known ranking mode
+✓ straight_flush has supported formats
+✓ straight_flush availability flags are exclusive
+✓ straight_flush has a valid minimum physical-card count
+✓ straight_flush has a valid contributing-slot count
+✓ royal_flush has a display name
+✓ royal_flush uses a known availability
+✓ royal_flush uses a known category
+✓ royal_flush uses a known evaluator
+✓ royal_flush uses a known ranking mode
+✓ royal_flush has supported formats
+✓ royal_flush availability flags are exclusive
+✓ royal_flush has a valid minimum physical-card count
+✓ royal_flush has a valid contributing-slot count
+✓ echo_pair has a display name
+✓ echo_pair uses a known availability
+✓ echo_pair uses a known category
+✓ echo_pair uses a known evaluator
+✓ echo_pair uses a known ranking mode
+✓ echo_pair has supported formats
+✓ echo_pair availability flags are exclusive
+✓ echo_pair has a valid minimum physical-card count
+✓ echo_pair has a valid contributing-slot count
+✓ echo_two_pair has a display name
+✓ echo_two_pair uses a known availability
+✓ echo_two_pair uses a known category
+✓ echo_two_pair uses a known evaluator
+✓ echo_two_pair uses a known ranking mode
+✓ echo_two_pair has supported formats
+✓ echo_two_pair availability flags are exclusive
+✓ echo_two_pair has a valid minimum physical-card count
+✓ echo_two_pair has a valid contributing-slot count
+✓ echo_three_of_a_kind has a display name
+✓ echo_three_of_a_kind uses a known availability
+✓ echo_three_of_a_kind uses a known category
+✓ echo_three_of_a_kind uses a known evaluator
+✓ echo_three_of_a_kind uses a known ranking mode
+✓ echo_three_of_a_kind has supported formats
+✓ echo_three_of_a_kind availability flags are exclusive
+✓ echo_three_of_a_kind has a valid minimum physical-card count
+✓ echo_three_of_a_kind has a valid contributing-slot count
+✓ echo_full_house has a display name
+✓ echo_full_house uses a known availability
+✓ echo_full_house uses a known category
+✓ echo_full_house uses a known evaluator
+✓ echo_full_house uses a known ranking mode
+✓ echo_full_house has supported formats
+✓ echo_full_house availability flags are exclusive
+✓ echo_full_house has a valid minimum physical-card count
+✓ echo_full_house has a valid contributing-slot count
+✓ echo_four_of_a_kind has a display name
+✓ echo_four_of_a_kind uses a known availability
+✓ echo_four_of_a_kind uses a known category
+✓ echo_four_of_a_kind uses a known evaluator
+✓ echo_four_of_a_kind uses a known ranking mode
+✓ echo_four_of_a_kind has supported formats
+✓ echo_four_of_a_kind availability flags are exclusive
+✓ echo_four_of_a_kind has a valid minimum physical-card count
+✓ echo_four_of_a_kind has a valid contributing-slot count
+✓ echo_five_of_a_kind has a display name
+✓ echo_five_of_a_kind uses a known availability
+✓ echo_five_of_a_kind uses a known category
+✓ echo_five_of_a_kind uses a known evaluator
+✓ echo_five_of_a_kind uses a known ranking mode
+✓ echo_five_of_a_kind has supported formats
+✓ echo_five_of_a_kind availability flags are exclusive
+✓ echo_five_of_a_kind has a valid minimum physical-card count
+✓ echo_five_of_a_kind has a valid contributing-slot count
+✓ echo_six_of_a_kind has a display name
+✓ echo_six_of_a_kind uses a known availability
+✓ echo_six_of_a_kind uses a known category
+✓ echo_six_of_a_kind uses a known evaluator
+✓ echo_six_of_a_kind uses a known ranking mode
+✓ echo_six_of_a_kind has supported formats
+✓ echo_six_of_a_kind availability flags are exclusive
+✓ echo_six_of_a_kind has a valid minimum physical-card count
+✓ echo_six_of_a_kind has a valid contributing-slot count
+✓ echo_seven_of_a_kind has a display name
+✓ echo_seven_of_a_kind uses a known availability
+✓ echo_seven_of_a_kind uses a known category
+✓ echo_seven_of_a_kind uses a known evaluator
+✓ echo_seven_of_a_kind uses a known ranking mode
+✓ echo_seven_of_a_kind has supported formats
+✓ echo_seven_of_a_kind availability flags are exclusive
+✓ echo_seven_of_a_kind has a valid minimum physical-card count
+✓ echo_seven_of_a_kind has a valid contributing-slot count
+✓ echo_eight_of_a_kind has a display name
+✓ echo_eight_of_a_kind uses a known availability
+✓ echo_eight_of_a_kind uses a known category
+✓ echo_eight_of_a_kind uses a known evaluator
+✓ echo_eight_of_a_kind uses a known ranking mode
+✓ echo_eight_of_a_kind has supported formats
+✓ echo_eight_of_a_kind availability flags are exclusive
+✓ echo_eight_of_a_kind has a valid minimum physical-card count
+✓ echo_eight_of_a_kind has a valid contributing-slot count
+✓ married_couple has a display name
+✓ married_couple uses a known availability
+✓ married_couple uses a known category
+✓ married_couple uses a known evaluator
+✓ married_couple uses a known ranking mode
+✓ married_couple has supported formats
+✓ married_couple availability flags are exclusive
+✓ married_couple has a valid minimum physical-card count
+✓ married_couple has a valid contributing-slot count
+✓ married_couple references valid person snow_white — couples[0].partners
+✓ married_couple references valid person cheese — couples[0].partners
+✓ married_couple references valid person grumpy — couples[1].partners
+✓ married_couple references valid person old_fashioned — couples[1].partners
+✓ married_couple references valid person sneezy — couples[2].partners
+✓ married_couple references valid person beer — couples[2].partners
+✓ married_couple references valid person sleepy — couples[3].partners
+✓ married_couple references valid person steak — couples[3].partners
+✓ married_couple references valid person queen — couples[4].partners
+✓ married_couple references valid person king — couples[4].partners
+✓ married_couple references valid person maternal_grandmother — couples[5].partners
+✓ married_couple references valid person maternal_grandfather — couples[5].partners
+✓ married_couple references valid person paternal_grandmother — couples[6].partners
+✓ married_couple references valid person kick — couples[6].partners
+✓ happy_and_light has a display name
+✓ happy_and_light uses a known availability
+✓ happy_and_light uses a known category
+✓ happy_and_light uses a known evaluator
+✓ happy_and_light uses a known ranking mode
+✓ happy_and_light has supported formats
+✓ happy_and_light availability flags are exclusive
+✓ happy_and_light has a valid minimum physical-card count
+✓ happy_and_light has a valid contributing-slot count
+✓ happy_and_light references valid person happy — people
+✓ happy_and_light references valid person light — people
+✓ three_brothers has a display name
+✓ three_brothers uses a known availability
+✓ three_brothers uses a known category
+✓ three_brothers uses a known evaluator
+✓ three_brothers uses a known ranking mode
+✓ three_brothers has supported formats
+✓ three_brothers availability flags are exclusive
+✓ three_brothers has a valid minimum physical-card count
+✓ three_brothers has a valid contributing-slot count
+✓ three_brothers references valid person dopey — people
+✓ three_brothers references valid person doc — people
+✓ three_brothers references valid person bashful — people
+✓ three_sisters has a display name
+✓ three_sisters uses a known availability
+✓ three_sisters uses a known category
+✓ three_sisters uses a known evaluator
+✓ three_sisters uses a known ranking mode
+✓ three_sisters has supported formats
+✓ three_sisters availability flags are exclusive
+✓ three_sisters has a valid minimum physical-card count
+✓ three_sisters has a valid contributing-slot count
+✓ three_sisters references valid person snow_white — peoplePool
+✓ three_sisters references valid person grumpy — peoplePool
+✓ three_sisters references valid person sneezy — peoplePool
+✓ three_sisters references valid person happy — peoplePool
+✓ three_sisters references valid person sleepy — peoplePool
+✓ four_sisters has a display name
+✓ four_sisters uses a known availability
+✓ four_sisters uses a known category
+✓ four_sisters uses a known evaluator
+✓ four_sisters uses a known ranking mode
+✓ four_sisters has supported formats
+✓ four_sisters availability flags are exclusive
+✓ four_sisters has a valid minimum physical-card count
+✓ four_sisters has a valid contributing-slot count
+✓ four_sisters references valid person snow_white — peoplePool
+✓ four_sisters references valid person grumpy — peoplePool
+✓ four_sisters references valid person sneezy — peoplePool
+✓ four_sisters references valid person happy — peoplePool
+✓ four_sisters references valid person sleepy — peoplePool
+✓ five_sisters has a display name
+✓ five_sisters uses a known availability
+✓ five_sisters uses a known category
+✓ five_sisters uses a known evaluator
+✓ five_sisters uses a known ranking mode
+✓ five_sisters has supported formats
+✓ five_sisters availability flags are exclusive
+✓ five_sisters has a valid minimum physical-card count
+✓ five_sisters has a valid contributing-slot count
+✓ five_sisters references valid person snow_white — peoplePool
+✓ five_sisters references valid person grumpy — peoplePool
+✓ five_sisters references valid person sneezy — peoplePool
+✓ five_sisters references valid person happy — peoplePool
+✓ five_sisters references valid person sleepy — peoplePool
+✓ three_kids has a display name
+✓ three_kids uses a known availability
+✓ three_kids uses a known category
+✓ three_kids uses a known evaluator
+✓ three_kids uses a known ranking mode
+✓ three_kids has supported formats
+✓ three_kids availability flags are exclusive
+✓ three_kids has a valid minimum physical-card count
+✓ three_kids has a valid contributing-slot count
+✓ three_kids references valid person cube — people
+✓ three_kids references valid person ball — people
+✓ three_kids references valid person net — people
+✓ three_at_the_grill has a display name
+✓ three_at_the_grill uses a known availability
+✓ three_at_the_grill uses a known category
+✓ three_at_the_grill uses a known evaluator
+✓ three_at_the_grill uses a known ranking mode
+✓ three_at_the_grill has supported formats
+✓ three_at_the_grill availability flags are exclusive
+✓ three_at_the_grill has a valid minimum physical-card count
+✓ three_at_the_grill has a valid contributing-slot count
+✓ three_at_the_grill references valid person sleepy — requiredAdults
+✓ three_at_the_grill references valid person steak — requiredAdults
+✓ three_at_the_grill references valid person cube — childrenPool
+✓ three_at_the_grill references valid person ball — childrenPool
+✓ three_at_the_grill references valid person net — childrenPool
+✓ four_at_the_grill has a display name
+✓ four_at_the_grill uses a known availability
+✓ four_at_the_grill uses a known category
+✓ four_at_the_grill uses a known evaluator
+✓ four_at_the_grill uses a known ranking mode
+✓ four_at_the_grill has supported formats
+✓ four_at_the_grill availability flags are exclusive
+✓ four_at_the_grill has a valid minimum physical-card count
+✓ four_at_the_grill has a valid contributing-slot count
+✓ four_at_the_grill references valid person sleepy — requiredAdults
+✓ four_at_the_grill references valid person steak — requiredAdults
+✓ four_at_the_grill references valid person cube — childrenPool
+✓ four_at_the_grill references valid person ball — childrenPool
+✓ four_at_the_grill references valid person net — childrenPool
+✓ five_at_the_grill has a display name
+✓ five_at_the_grill uses a known availability
+✓ five_at_the_grill uses a known category
+✓ five_at_the_grill uses a known evaluator
+✓ five_at_the_grill uses a known ranking mode
+✓ five_at_the_grill has supported formats
+✓ five_at_the_grill availability flags are exclusive
+✓ five_at_the_grill has a valid minimum physical-card count
+✓ five_at_the_grill has a valid contributing-slot count
+✓ five_at_the_grill references valid person sleepy — requiredAdults
+✓ five_at_the_grill references valid person steak — requiredAdults
+✓ five_at_the_grill references valid person cube — childrenPool
+✓ five_at_the_grill references valid person ball — childrenPool
+✓ five_at_the_grill references valid person net — childrenPool
+✓ jersey_pair has a display name
+✓ jersey_pair uses a known availability
+✓ jersey_pair uses a known category
+✓ jersey_pair uses a known evaluator
+✓ jersey_pair uses a known ranking mode
+✓ jersey_pair has supported formats
+✓ jersey_pair availability flags are exclusive
+✓ jersey_pair has a valid minimum physical-card count
+✓ jersey_pair has a valid contributing-slot count
+✓ jersey_pair references valid card JS — requiredCardIds
+✓ jersey_pair references valid card AS — requiredCardIds
+✓ dancers has a display name
+✓ dancers uses a known availability
+✓ dancers uses a known category
+✓ dancers uses a known evaluator
+✓ dancers uses a known ranking mode
+✓ dancers has supported formats
+✓ dancers availability flags are exclusive
+✓ dancers has a valid minimum physical-card count
+✓ dancers has a valid contributing-slot count
+✓ family_album has a display name
+✓ family_album uses a known availability
+✓ family_album uses a known category
+✓ family_album uses a known evaluator
+✓ family_album uses a known ranking mode
+✓ family_album has supported formats
+✓ family_album availability flags are exclusive
+✓ family_album has a valid minimum physical-card count
+✓ family_album has a valid contributing-slot count
+✓ family_album references valid card 7S — requiredCardIds
+✓ family_album references valid card 10S — requiredCardIds
+✓ grandparents_album has a display name
+✓ grandparents_album uses a known availability
+✓ grandparents_album uses a known category
+✓ grandparents_album uses a known evaluator
+✓ grandparents_album uses a known ranking mode
+✓ grandparents_album has supported formats
+✓ grandparents_album availability flags are exclusive
+✓ grandparents_album has a valid minimum physical-card count
+✓ grandparents_album has a valid contributing-slot count
+✓ grandparents_album references valid card QS — requiredCardIds
+✓ grandparents_album references valid card KS — requiredCardIds
+✓ fun_flight has a display name
+✓ fun_flight uses a known availability
+✓ fun_flight uses a known category
+✓ fun_flight uses a known evaluator
+✓ fun_flight uses a known ranking mode
+✓ fun_flight has supported formats
+✓ fun_flight availability flags are exclusive
+✓ fun_flight has a valid minimum physical-card count
+✓ fun_flight has a valid contributing-slot count
+✓ fun_flight references valid card 9S — alternatives
+✓ fun_flight references valid card KS — alternatives
+✓ fun_flight references valid card 9S — alternatives
+✓ fun_flight references valid card JOKER_KICK — alternatives
+✓ full_ancestry has a display name
+✓ full_ancestry uses a known availability
+✓ full_ancestry uses a known category
+✓ full_ancestry uses a known evaluator
+✓ full_ancestry uses a known ranking mode
+✓ full_ancestry has supported formats
+✓ full_ancestry availability flags are exclusive
+✓ full_ancestry has a valid minimum physical-card count
+✓ full_ancestry has a valid contributing-slot count
+✓ full_ancestry references valid card CROWN_S — requiredCardIds
+✓ full_ancestry references valid card QS — requiredCardIds
+✓ full_ancestry references valid card KS — requiredCardIds
+✓ full_ancestry references valid card 3S — oneOfCardIds
+✓ full_ancestry references valid card 4S — oneOfCardIds
+✓ full_ancestry references valid card 5S — oneOfCardIds
+✓ grandparent_and_ace has a display name
+✓ grandparent_and_ace uses a known availability
+✓ grandparent_and_ace uses a known category
+✓ grandparent_and_ace uses a known evaluator
+✓ grandparent_and_ace uses a known ranking mode
+✓ grandparent_and_ace has supported formats
+✓ grandparent_and_ace availability flags are exclusive
+✓ grandparent_and_ace has a valid minimum physical-card count
+✓ grandparent_and_ace has a valid contributing-slot count
+✓ grandparent_and_ace references valid person maternal_grandmother — grandparentPeople
+✓ grandparent_and_ace references valid person maternal_grandfather — grandparentPeople
+✓ grandparent_and_ace references valid person paternal_grandmother — grandparentPeople
+✓ grandparent_and_ace references valid person kick — grandparentPeople
+✓ grandparent_and_ace references valid person light — childPeople
+✓ grandparent_and_ace references valid person cube — childPeople
+✓ grandparent_and_ace references valid person ball — childPeople
+✓ grandparent_and_ace references valid person net — childPeople
+✓ heritage has a display name
+✓ heritage uses a known availability
+✓ heritage uses a known category
+✓ heritage uses a known evaluator
+✓ heritage uses a known ranking mode
+✓ heritage has supported formats
+✓ heritage availability flags are exclusive
+✓ heritage has a valid minimum physical-card count
+✓ heritage has a valid contributing-slot count
+✓ heritage references valid card QS — alternatives.portraitCardId
+✓ heritage references valid card KS — alternatives.portraitCardId
+✓ heritage references valid person queen — alternatives[0].parentPerson
+✓ heritage references valid person king — alternatives[1].parentPerson
+✓ double_heritage has a display name
+✓ double_heritage uses a known availability
+✓ double_heritage uses a known category
+✓ double_heritage uses a known evaluator
+✓ double_heritage uses a known ranking mode
+✓ double_heritage has supported formats
+✓ double_heritage availability flags are exclusive
+✓ double_heritage has a valid minimum physical-card count
+✓ double_heritage has a valid contributing-slot count
+✓ double_heritage references valid card QS — requiredPortraitCardIds
+✓ double_heritage references valid card KS — requiredPortraitCardIds
+✓ double_heritage references valid card CROWN_S — crownCardId
+✓ double_heritage references valid person queen — parentPeople
+✓ double_heritage references valid person king — parentPeople
+✓ brother_time has a display name
+✓ brother_time uses a known availability
+✓ brother_time uses a known category
+✓ brother_time uses a known evaluator
+✓ brother_time uses a known ranking mode
+✓ brother_time has supported formats
+✓ brother_time availability flags are exclusive
+✓ brother_time has a valid minimum physical-card count
+✓ brother_time has a valid contributing-slot count
+✓ brother_time references valid person dopey — peoplePool
+✓ brother_time references valid person doc — peoplePool
+✓ brother_time references valid person bashful — peoplePool
+✓ sister_time has a display name
+✓ sister_time uses a known availability
+✓ sister_time uses a known category
+✓ sister_time uses a known evaluator
+✓ sister_time uses a known ranking mode
+✓ sister_time has supported formats
+✓ sister_time availability flags are exclusive
+✓ sister_time has a valid minimum physical-card count
+✓ sister_time has a valid contributing-slot count
+✓ sister_time references valid person snow_white — peoplePool
+✓ sister_time references valid person grumpy — peoplePool
+✓ sister_time references valid person sneezy — peoplePool
+✓ sister_time references valid person happy — peoplePool
+✓ sister_time references valid person sleepy — peoplePool
+✓ dynamic_duo has a display name
+✓ dynamic_duo uses a known availability
+✓ dynamic_duo uses a known category
+✓ dynamic_duo uses a known evaluator
+✓ dynamic_duo uses a known ranking mode
+✓ dynamic_duo has supported formats
+✓ dynamic_duo availability flags are exclusive
+✓ dynamic_duo has a valid minimum physical-card count
+✓ dynamic_duo has a valid contributing-slot count
+✓ dynamic_duo references valid person dopey — personPairs
+✓ dynamic_duo references valid person snow_white — personPairs
+✓ dynamic_duo references valid person grumpy — personPairs
+✓ dynamic_duo references valid person sneezy — personPairs
+✓ dynamic_duo references valid person doc — personPairs
+✓ dynamic_duo references valid person happy — personPairs
+✓ dynamic_duo references valid person bashful — personPairs
+✓ dynamic_duo references valid person sleepy — personPairs
+✓ family_sleepover has a display name
+✓ family_sleepover uses a known availability
+✓ family_sleepover uses a known category
+✓ family_sleepover uses a known evaluator
+✓ family_sleepover uses a known ranking mode
+✓ family_sleepover has supported formats
+✓ family_sleepover availability flags are exclusive
+✓ family_sleepover has a valid minimum physical-card count
+✓ family_sleepover has a valid contributing-slot count
+✓ family_sleepover references valid card 3S — auntUncleCouples[0].weddingCardId
+✓ family_sleepover references valid card 4S — auntUncleCouples[1].weddingCardId
+✓ family_sleepover references valid card 5S — auntUncleCouples[2].weddingCardId
+✓ family_sleepover references valid person light — childPeople
+✓ family_sleepover references valid person cube — childPeople
+✓ family_sleepover references valid person ball — childPeople
+✓ family_sleepover references valid person net — childPeople
+✓ family_sleepover references valid person snow_white — auntUncleCouples[0].partners
+✓ family_sleepover references valid person cheese — auntUncleCouples[0].partners
+✓ family_sleepover references valid person grumpy — auntUncleCouples[1].partners
+✓ family_sleepover references valid person old_fashioned — auntUncleCouples[1].partners
+✓ family_sleepover references valid person sneezy — auntUncleCouples[2].partners
+✓ family_sleepover references valid person beer — auntUncleCouples[2].partners
+✓ family_sleepover references valid person sleepy — auntUncleCouples[3].partners
+✓ family_sleepover references valid person steak — auntUncleCouples[3].partners
+✓ family_sleepover references valid person light — childParents.light
+✓ family_sleepover references valid person happy — childParents.light
+✓ family_sleepover references valid person cube — childParents.cube
+✓ family_sleepover references valid person sleepy — childParents.cube
+✓ family_sleepover references valid person steak — childParents.cube
+✓ family_sleepover references valid person ball — childParents.ball
+✓ family_sleepover references valid person sleepy — childParents.ball
+✓ family_sleepover references valid person steak — childParents.ball
+✓ family_sleepover references valid person net — childParents.net
+✓ family_sleepover references valid person sleepy — childParents.net
+✓ family_sleepover references valid person steak — childParents.net
+✓ family_sleepover references valid person queen — grandparentsAlternative
+✓ family_sleepover references valid person king — grandparentsAlternative
+✓ same_suit_relationship_pair has a display name
+✓ same_suit_relationship_pair uses a known availability
+✓ same_suit_relationship_pair uses a known category
+✓ same_suit_relationship_pair uses a known evaluator
+✓ same_suit_relationship_pair uses a known ranking mode
+✓ same_suit_relationship_pair has supported formats
+✓ same_suit_relationship_pair availability flags are exclusive
+✓ same_suit_relationship_pair has a valid minimum physical-card count
+✓ same_suit_relationship_pair has a valid contributing-slot count
+✓ same_suit_relationship_pair references valid person dopey — allowedSubtypes[0].peoplePool
+✓ same_suit_relationship_pair references valid person doc — allowedSubtypes[0].peoplePool
+✓ same_suit_relationship_pair references valid person bashful — allowedSubtypes[0].peoplePool
+✓ same_suit_relationship_pair references valid person snow_white — allowedSubtypes[1].peoplePool
+✓ same_suit_relationship_pair references valid person grumpy — allowedSubtypes[1].peoplePool
+✓ same_suit_relationship_pair references valid person sneezy — allowedSubtypes[1].peoplePool
+✓ same_suit_relationship_pair references valid person happy — allowedSubtypes[1].peoplePool
+✓ same_suit_relationship_pair references valid person sleepy — allowedSubtypes[1].peoplePool
+✓ same_suit_relationship_pair references valid person snow_white — allowedSubtypes[2].couples[0].partners
+✓ same_suit_relationship_pair references valid person cheese — allowedSubtypes[2].couples[0].partners
+✓ same_suit_relationship_pair references valid person grumpy — allowedSubtypes[2].couples[1].partners
+✓ same_suit_relationship_pair references valid person old_fashioned — allowedSubtypes[2].couples[1].partners
+✓ same_suit_relationship_pair references valid person sneezy — allowedSubtypes[2].couples[2].partners
+✓ same_suit_relationship_pair references valid person beer — allowedSubtypes[2].couples[2].partners
+✓ same_suit_relationship_pair references valid person sleepy — allowedSubtypes[2].couples[3].partners
+✓ same_suit_relationship_pair references valid person steak — allowedSubtypes[2].couples[3].partners
+✓ same_suit_relationship_pair references valid person queen — allowedSubtypes[2].couples[4].partners
+✓ same_suit_relationship_pair references valid person king — allowedSubtypes[2].couples[4].partners
+✓ same_suit_relationship_pair references valid person maternal_grandmother — allowedSubtypes[2].couples[5].partners
+✓ same_suit_relationship_pair references valid person maternal_grandfather — allowedSubtypes[2].couples[5].partners
+✓ same_suit_relationship_pair references valid person paternal_grandmother — allowedSubtypes[2].couples[6].partners
+✓ same_suit_relationship_pair references valid person kick — allowedSubtypes[2].couples[6].partners
+✓ same_suit_relationship_pair references valid person happy — allowedSubtypes[3].relationships[0].parents
+✓ same_suit_relationship_pair references valid person light — allowedSubtypes[3].relationships[0].children
+✓ same_suit_relationship_pair references valid person sleepy — allowedSubtypes[3].relationships[1].parents
+✓ same_suit_relationship_pair references valid person steak — allowedSubtypes[3].relationships[1].parents
+✓ same_suit_relationship_pair references valid person cube — allowedSubtypes[3].relationships[1].children
+✓ same_suit_relationship_pair references valid person ball — allowedSubtypes[3].relationships[1].children
+✓ same_suit_relationship_pair references valid person net — allowedSubtypes[3].relationships[1].children
+✓ attendance_players_represented has a display name
+✓ attendance_players_represented uses a known availability
+✓ attendance_players_represented uses a known category
+✓ attendance_players_represented uses a known evaluator
+✓ attendance_players_represented uses a known ranking mode
+✓ attendance_players_represented has supported formats
+✓ attendance_players_represented availability flags are exclusive
+✓ attendance_players_represented has a valid minimum physical-card count
+✓ attendance_players_represented has a valid contributing-slot count
+✓ Selectable IDs match the approved optional-hand constants
+✓ All selectable hands expose setup descriptions
+✓ No exact-card built-in hand is a one-card special
+✓ Rare exact-pair tier exists
+✓ Rare exact-pair tier contains five hands
+✓ Every rare-pair member uses the fixed tier
+✓ Jersey Pair is exactly JS and AS
+✓ Dancers is an abstract fixed pair without stored card IDs
+✓ Family Album is exactly 7S and 10S
+✓ Grandparents Album is exactly QS and KS
+✓ Fun Flight supports KS or Kick Joker
+✓ Full Ancestry requires Crown, both grandparent portraits, and one wedding card
+✓ There are seven recognized couples
+✓ There are four grandparents
+✓ There are four Ace children
+✓ There are three Grill children
+✓ Three Brothers uses Dopey, Doc, and Bashful
+✓ Three Kids uses Cube, Ball, and Net
+✓ Five at the Grill requires all three children
+✓ Multi-person cards are limited to one identity per hand slot
+✓ Jokers remain non-wild
+✓ Virtual self is not a physical card
+✓ Virtual self has no suit
+✓ Probability calculations exclude virtual self
+✓ Probability output uses one shared ranking
+✓ Empty optional selection returns only built-in hands
+✓ Selecting all optional hands returns built-in plus eight selectable hands
+✓ Unknown optional hand IDs are rejected

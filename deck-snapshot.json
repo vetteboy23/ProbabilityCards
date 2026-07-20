@@ -1,0 +1,1752 @@
+{
+  "generatedFrom": [
+    "src/people.js",
+    "src/cards.js"
+  ],
+  "people": [
+    {
+      "id": "queen",
+      "displayName": "Queen",
+      "publicNickname": "Queen",
+      "nicknameResolved": true,
+      "generation": "parents",
+      "roles": [
+        "parent",
+        "mother"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "king",
+      "displayName": "King",
+      "publicNickname": "King",
+      "nicknameResolved": true,
+      "generation": "parents",
+      "roles": [
+        "parent",
+        "father"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "dopey",
+      "displayName": "Dopey",
+      "publicNickname": "Dopey",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "brother"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "snow_white",
+      "displayName": "Snow White",
+      "publicNickname": "Snow White",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "sister",
+        "wife"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "grumpy",
+      "displayName": "Grumpy",
+      "publicNickname": "Grumpy",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "sister",
+        "wife"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "sneezy",
+      "displayName": "Sneezy",
+      "publicNickname": "Sneezy",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "sister",
+        "wife"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "doc",
+      "displayName": "Doc",
+      "publicNickname": "Doc",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "brother"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "happy",
+      "displayName": "Happy",
+      "publicNickname": "Happy",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "sister",
+        "mother"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "bashful",
+      "displayName": "Bashful",
+      "publicNickname": "Bashful",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "brother"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "sleepy",
+      "displayName": "Sleepy",
+      "publicNickname": "Sleepy",
+      "nicknameResolved": true,
+      "generation": "siblings",
+      "roles": [
+        "sibling",
+        "sister",
+        "wife",
+        "mother"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "cheese",
+      "displayName": "Cheese",
+      "publicNickname": "Cheese",
+      "nicknameResolved": true,
+      "generation": "spouses",
+      "roles": [
+        "husband"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "old_fashioned",
+      "displayName": "Old Fashioned",
+      "publicNickname": "Old Fashioned",
+      "nicknameResolved": true,
+      "generation": "spouses",
+      "roles": [
+        "husband"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "beer",
+      "displayName": "Beer",
+      "publicNickname": "Beer",
+      "nicknameResolved": true,
+      "generation": "spouses",
+      "roles": [
+        "husband"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "steak",
+      "displayName": "Steak",
+      "publicNickname": "Steak",
+      "nicknameResolved": true,
+      "generation": "spouses",
+      "roles": [
+        "husband",
+        "father"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "light",
+      "displayName": "Light",
+      "publicNickname": "Light",
+      "nicknameResolved": true,
+      "generation": "grandchildren",
+      "roles": [
+        "grandchild",
+        "child"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "cube",
+      "displayName": "Cube",
+      "publicNickname": "Cube",
+      "nicknameResolved": true,
+      "generation": "grandchildren",
+      "roles": [
+        "grandchild",
+        "child"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "ball",
+      "displayName": "Ball",
+      "publicNickname": "Ball",
+      "nicknameResolved": true,
+      "generation": "grandchildren",
+      "roles": [
+        "grandchild",
+        "child"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "net",
+      "displayName": "Net",
+      "publicNickname": "Net",
+      "nicknameResolved": true,
+      "generation": "grandchildren",
+      "roles": [
+        "grandchild",
+        "child"
+      ],
+      "selectableAsPlayer": true
+    },
+    {
+      "id": "maternal_grandmother",
+      "displayName": "Maternal Grandmother",
+      "publicNickname": "Maternal Grandmother",
+      "nicknameResolved": true,
+      "generation": "grandparents",
+      "roles": [
+        "grandparent",
+        "grandmother"
+      ],
+      "selectableAsPlayer": false
+    },
+    {
+      "id": "maternal_grandfather",
+      "displayName": "Pipe",
+      "publicNickname": "Pipe",
+      "nicknameResolved": true,
+      "generation": "grandparents",
+      "roles": [
+        "grandparent",
+        "grandfather",
+        "joker_person"
+      ],
+      "selectableAsPlayer": false
+    },
+    {
+      "id": "paternal_grandmother",
+      "displayName": "Paternal Grandmother",
+      "publicNickname": "Paternal Grandmother",
+      "nicknameResolved": true,
+      "generation": "grandparents",
+      "roles": [
+        "grandparent",
+        "grandmother"
+      ],
+      "selectableAsPlayer": false
+    },
+    {
+      "id": "kick",
+      "displayName": "Kick",
+      "publicNickname": "Kick",
+      "nicknameResolved": true,
+      "generation": "grandparents",
+      "roles": [
+        "grandparent",
+        "grandfather",
+        "joker_person"
+      ],
+      "selectableAsPlayer": false
+    },
+    {
+      "id": "fly",
+      "displayName": "Fly",
+      "publicNickname": "Fly",
+      "nicknameResolved": true,
+      "generation": "extended_family",
+      "roles": [
+        "great_uncle"
+      ],
+      "selectableAsPlayer": false
+    }
+  ],
+  "cards": [
+    {
+      "id": "2C",
+      "rank": "2",
+      "rankLabel": "2",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 2,
+      "straightValue": 2,
+      "primaryPerson": "dopey",
+      "depicts": [
+        "dopey"
+      ],
+      "relationalIdentityOptions": [
+        "dopey"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "2D",
+      "rank": "2",
+      "rankLabel": "2",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 2,
+      "straightValue": 2,
+      "primaryPerson": "dopey",
+      "depicts": [
+        "dopey"
+      ],
+      "relationalIdentityOptions": [
+        "dopey"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "2H",
+      "rank": "2",
+      "rankLabel": "2",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 2,
+      "straightValue": 2,
+      "primaryPerson": "dopey",
+      "depicts": [
+        "dopey"
+      ],
+      "relationalIdentityOptions": [
+        "dopey"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "2S",
+      "rank": "2",
+      "rankLabel": "2",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 2,
+      "straightValue": 2,
+      "primaryPerson": "dopey",
+      "depicts": [
+        "dopey"
+      ],
+      "relationalIdentityOptions": [
+        "dopey"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "3C",
+      "rank": "3",
+      "rankLabel": "3",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 3,
+      "straightValue": 3,
+      "primaryPerson": "snow_white",
+      "depicts": [
+        "snow_white"
+      ],
+      "relationalIdentityOptions": [
+        "snow_white"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "3D",
+      "rank": "3",
+      "rankLabel": "3",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 3,
+      "straightValue": 3,
+      "primaryPerson": "snow_white",
+      "depicts": [
+        "snow_white"
+      ],
+      "relationalIdentityOptions": [
+        "snow_white"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "3H",
+      "rank": "3",
+      "rankLabel": "3",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 3,
+      "straightValue": 3,
+      "primaryPerson": "snow_white",
+      "depicts": [
+        "snow_white"
+      ],
+      "relationalIdentityOptions": [
+        "snow_white"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "3S",
+      "rank": "3",
+      "rankLabel": "3",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 3,
+      "straightValue": 3,
+      "primaryPerson": "snow_white",
+      "depicts": [
+        "snow_white",
+        "cheese"
+      ],
+      "relationalIdentityOptions": [
+        "snow_white",
+        "cheese"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "wedding_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "4C",
+      "rank": "4",
+      "rankLabel": "4",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 4,
+      "straightValue": 4,
+      "primaryPerson": "grumpy",
+      "depicts": [
+        "grumpy"
+      ],
+      "relationalIdentityOptions": [
+        "grumpy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "4D",
+      "rank": "4",
+      "rankLabel": "4",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 4,
+      "straightValue": 4,
+      "primaryPerson": "grumpy",
+      "depicts": [
+        "grumpy"
+      ],
+      "relationalIdentityOptions": [
+        "grumpy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "4H",
+      "rank": "4",
+      "rankLabel": "4",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 4,
+      "straightValue": 4,
+      "primaryPerson": "grumpy",
+      "depicts": [
+        "grumpy"
+      ],
+      "relationalIdentityOptions": [
+        "grumpy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "4S",
+      "rank": "4",
+      "rankLabel": "4",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 4,
+      "straightValue": 4,
+      "primaryPerson": "grumpy",
+      "depicts": [
+        "grumpy",
+        "old_fashioned"
+      ],
+      "relationalIdentityOptions": [
+        "grumpy",
+        "old_fashioned"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "wedding_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "5C",
+      "rank": "5",
+      "rankLabel": "5",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 5,
+      "straightValue": 5,
+      "primaryPerson": "sneezy",
+      "depicts": [
+        "sneezy"
+      ],
+      "relationalIdentityOptions": [
+        "sneezy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "5D",
+      "rank": "5",
+      "rankLabel": "5",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 5,
+      "straightValue": 5,
+      "primaryPerson": "sneezy",
+      "depicts": [
+        "sneezy"
+      ],
+      "relationalIdentityOptions": [
+        "sneezy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "5H",
+      "rank": "5",
+      "rankLabel": "5",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 5,
+      "straightValue": 5,
+      "primaryPerson": "sneezy",
+      "depicts": [
+        "sneezy"
+      ],
+      "relationalIdentityOptions": [
+        "sneezy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "5S",
+      "rank": "5",
+      "rankLabel": "5",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 5,
+      "straightValue": 5,
+      "primaryPerson": "sneezy",
+      "depicts": [
+        "sneezy",
+        "beer"
+      ],
+      "relationalIdentityOptions": [
+        "sneezy",
+        "beer"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "wedding_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "6C",
+      "rank": "6",
+      "rankLabel": "6",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 6,
+      "straightValue": 6,
+      "primaryPerson": "doc",
+      "depicts": [
+        "doc"
+      ],
+      "relationalIdentityOptions": [
+        "doc"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "6D",
+      "rank": "6",
+      "rankLabel": "6",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 6,
+      "straightValue": 6,
+      "primaryPerson": "doc",
+      "depicts": [
+        "doc"
+      ],
+      "relationalIdentityOptions": [
+        "doc"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "6H",
+      "rank": "6",
+      "rankLabel": "6",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 6,
+      "straightValue": 6,
+      "primaryPerson": "doc",
+      "depicts": [
+        "doc"
+      ],
+      "relationalIdentityOptions": [
+        "doc"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "6S",
+      "rank": "6",
+      "rankLabel": "6",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 6,
+      "straightValue": 6,
+      "primaryPerson": "doc",
+      "depicts": [
+        "doc"
+      ],
+      "relationalIdentityOptions": [
+        "doc"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "7C",
+      "rank": "7",
+      "rankLabel": "7",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 7,
+      "straightValue": 7,
+      "primaryPerson": "happy",
+      "depicts": [
+        "happy"
+      ],
+      "relationalIdentityOptions": [
+        "happy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "7D",
+      "rank": "7",
+      "rankLabel": "7",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 7,
+      "straightValue": 7,
+      "primaryPerson": "happy",
+      "depicts": [
+        "happy"
+      ],
+      "relationalIdentityOptions": [
+        "happy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "7H",
+      "rank": "7",
+      "rankLabel": "7",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 7,
+      "straightValue": 7,
+      "primaryPerson": "happy",
+      "depicts": [
+        "happy"
+      ],
+      "relationalIdentityOptions": [
+        "happy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "7S",
+      "rank": "7",
+      "rankLabel": "7",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 7,
+      "straightValue": 7,
+      "primaryPerson": "happy",
+      "depicts": [
+        "happy",
+        "light"
+      ],
+      "relationalIdentityOptions": [
+        "happy",
+        "light"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "household_portrait",
+        "happy_household_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "9C",
+      "rank": "9",
+      "rankLabel": "9",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 9,
+      "straightValue": 9,
+      "primaryPerson": "bashful",
+      "depicts": [
+        "bashful"
+      ],
+      "relationalIdentityOptions": [
+        "bashful"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "9D",
+      "rank": "9",
+      "rankLabel": "9",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 9,
+      "straightValue": 9,
+      "primaryPerson": "bashful",
+      "depicts": [
+        "bashful"
+      ],
+      "relationalIdentityOptions": [
+        "bashful"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "9H",
+      "rank": "9",
+      "rankLabel": "9",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 9,
+      "straightValue": 9,
+      "primaryPerson": "bashful",
+      "depicts": [
+        "bashful"
+      ],
+      "relationalIdentityOptions": [
+        "bashful"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "9S",
+      "rank": "9",
+      "rankLabel": "9",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 9,
+      "straightValue": 9,
+      "primaryPerson": "bashful",
+      "depicts": [
+        "bashful",
+        "fly"
+      ],
+      "relationalIdentityOptions": [
+        "bashful",
+        "fly"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "historical_portrait",
+        "kick_fly_family_history"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "10C",
+      "rank": "10",
+      "rankLabel": "10",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 10,
+      "straightValue": 10,
+      "primaryPerson": "sleepy",
+      "depicts": [
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "10D",
+      "rank": "10",
+      "rankLabel": "10",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 10,
+      "straightValue": 10,
+      "primaryPerson": "sleepy",
+      "depicts": [
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "10H",
+      "rank": "10",
+      "rankLabel": "10",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 10,
+      "straightValue": 10,
+      "primaryPerson": "sleepy",
+      "depicts": [
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "10S",
+      "rank": "10",
+      "rankLabel": "10",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 10,
+      "straightValue": 10,
+      "primaryPerson": "sleepy",
+      "depicts": [
+        "sleepy",
+        "steak",
+        "cube",
+        "ball",
+        "net"
+      ],
+      "relationalIdentityOptions": [
+        "sleepy",
+        "steak",
+        "cube",
+        "ball",
+        "net"
+      ],
+      "tags": [
+        "standard_card",
+        "sibling_card",
+        "individual_sibling_rank",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "household_portrait",
+        "sleepy_household_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "8C",
+      "rank": "8",
+      "rankLabel": "8",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "sibling_group_portrait",
+      "orderValue": 8,
+      "straightValue": 8,
+      "primaryPerson": null,
+      "depicts": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "eight_card",
+        "multi_person_card",
+        "sibling_group_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": "For a relational hand, this card may be assigned as exactly one of the eight siblings."
+    },
+    {
+      "id": "8D",
+      "rank": "8",
+      "rankLabel": "8",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "sibling_group_portrait",
+      "orderValue": 8,
+      "straightValue": 8,
+      "primaryPerson": null,
+      "depicts": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "eight_card",
+        "multi_person_card",
+        "sibling_group_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": "For a relational hand, this card may be assigned as exactly one of the eight siblings."
+    },
+    {
+      "id": "8H",
+      "rank": "8",
+      "rankLabel": "8",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "sibling_group_portrait",
+      "orderValue": 8,
+      "straightValue": 8,
+      "primaryPerson": null,
+      "depicts": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "eight_card",
+        "multi_person_card",
+        "sibling_group_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": "For a relational hand, this card may be assigned as exactly one of the eight siblings."
+    },
+    {
+      "id": "8S",
+      "rank": "8",
+      "rankLabel": "8",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "sibling_group_portrait",
+      "orderValue": 8,
+      "straightValue": 8,
+      "primaryPerson": null,
+      "depicts": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "relationalIdentityOptions": [
+        "dopey",
+        "snow_white",
+        "grumpy",
+        "sneezy",
+        "doc",
+        "happy",
+        "bashful",
+        "sleepy"
+      ],
+      "tags": [
+        "standard_card",
+        "eight_card",
+        "multi_person_card",
+        "sibling_group_portrait",
+        "spade",
+        "historical_spade"
+      ],
+      "assignmentStatus": "final",
+      "notes": "For a relational hand, this card may be assigned as exactly one of the eight siblings."
+    },
+    {
+      "id": "JC",
+      "rank": "J",
+      "rankLabel": "Jack",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 11,
+      "straightValue": 11,
+      "primaryPerson": "cheese",
+      "depicts": [
+        "cheese"
+      ],
+      "relationalIdentityOptions": [
+        "cheese"
+      ],
+      "tags": [
+        "standard_card",
+        "jack",
+        "husband_card"
+      ],
+      "assignmentStatus": "provisional",
+      "notes": null
+    },
+    {
+      "id": "JD",
+      "rank": "J",
+      "rankLabel": "Jack",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 11,
+      "straightValue": 11,
+      "primaryPerson": "old_fashioned",
+      "depicts": [
+        "old_fashioned"
+      ],
+      "relationalIdentityOptions": [
+        "old_fashioned"
+      ],
+      "tags": [
+        "standard_card",
+        "jack",
+        "husband_card"
+      ],
+      "assignmentStatus": "provisional",
+      "notes": null
+    },
+    {
+      "id": "JH",
+      "rank": "J",
+      "rankLabel": "Jack",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 11,
+      "straightValue": 11,
+      "primaryPerson": "beer",
+      "depicts": [
+        "beer"
+      ],
+      "relationalIdentityOptions": [
+        "beer"
+      ],
+      "tags": [
+        "standard_card",
+        "jack",
+        "husband_card"
+      ],
+      "assignmentStatus": "provisional",
+      "notes": null
+    },
+    {
+      "id": "JS",
+      "rank": "J",
+      "rankLabel": "Jack",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 11,
+      "straightValue": 11,
+      "primaryPerson": "steak",
+      "depicts": [
+        "steak"
+      ],
+      "relationalIdentityOptions": [
+        "steak"
+      ],
+      "tags": [
+        "standard_card",
+        "jack",
+        "husband_card",
+        "spade",
+        "historical_spade",
+        "steak_card",
+        "jersey_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "QC",
+      "rank": "Q",
+      "rankLabel": "Queen",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 12,
+      "straightValue": 12,
+      "primaryPerson": "queen",
+      "depicts": [
+        "queen"
+      ],
+      "relationalIdentityOptions": [
+        "queen"
+      ],
+      "tags": [
+        "standard_card",
+        "queen_card",
+        "parent_card",
+        "mother_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "QD",
+      "rank": "Q",
+      "rankLabel": "Queen",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 12,
+      "straightValue": 12,
+      "primaryPerson": "queen",
+      "depicts": [
+        "queen"
+      ],
+      "relationalIdentityOptions": [
+        "queen"
+      ],
+      "tags": [
+        "standard_card",
+        "queen_card",
+        "parent_card",
+        "mother_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "QH",
+      "rank": "Q",
+      "rankLabel": "Queen",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 12,
+      "straightValue": 12,
+      "primaryPerson": "queen",
+      "depicts": [
+        "queen"
+      ],
+      "relationalIdentityOptions": [
+        "queen"
+      ],
+      "tags": [
+        "standard_card",
+        "queen_card",
+        "parent_card",
+        "mother_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "QS",
+      "rank": "Q",
+      "rankLabel": "Queen",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "grandparent_portrait",
+      "orderValue": 12,
+      "straightValue": 12,
+      "primaryPerson": null,
+      "depicts": [
+        "maternal_grandmother",
+        "maternal_grandfather"
+      ],
+      "relationalIdentityOptions": [
+        "maternal_grandmother",
+        "maternal_grandfather"
+      ],
+      "tags": [
+        "standard_card",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "grandparent_portrait",
+        "maternal_grandparents_portrait"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "KC",
+      "rank": "K",
+      "rankLabel": "King",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 13,
+      "straightValue": 13,
+      "primaryPerson": "king",
+      "depicts": [
+        "king"
+      ],
+      "relationalIdentityOptions": [
+        "king"
+      ],
+      "tags": [
+        "standard_card",
+        "king_card",
+        "parent_card",
+        "father_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "KD",
+      "rank": "K",
+      "rankLabel": "King",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 13,
+      "straightValue": 13,
+      "primaryPerson": "king",
+      "depicts": [
+        "king"
+      ],
+      "relationalIdentityOptions": [
+        "king"
+      ],
+      "tags": [
+        "standard_card",
+        "king_card",
+        "parent_card",
+        "father_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "KH",
+      "rank": "K",
+      "rankLabel": "King",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 13,
+      "straightValue": 13,
+      "primaryPerson": "king",
+      "depicts": [
+        "king"
+      ],
+      "relationalIdentityOptions": [
+        "king"
+      ],
+      "tags": [
+        "standard_card",
+        "king_card",
+        "parent_card",
+        "father_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "KS",
+      "rank": "K",
+      "rankLabel": "King",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "grandparent_portrait",
+      "orderValue": 13,
+      "straightValue": 13,
+      "primaryPerson": null,
+      "depicts": [
+        "paternal_grandmother",
+        "kick"
+      ],
+      "relationalIdentityOptions": [
+        "paternal_grandmother",
+        "kick"
+      ],
+      "tags": [
+        "standard_card",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "grandparent_portrait",
+        "paternal_grandparents_portrait",
+        "kick_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "AC",
+      "rank": "A",
+      "rankLabel": "Ace",
+      "suit": "clubs",
+      "suitSymbol": "♣",
+      "cardType": "standard",
+      "orderValue": 15,
+      "straightValue": 14,
+      "primaryPerson": "light",
+      "depicts": [
+        "light"
+      ],
+      "relationalIdentityOptions": [
+        "light"
+      ],
+      "tags": [
+        "standard_card",
+        "ace",
+        "grandchild_card"
+      ],
+      "assignmentStatus": "provisional",
+      "notes": null
+    },
+    {
+      "id": "AD",
+      "rank": "A",
+      "rankLabel": "Ace",
+      "suit": "diamonds",
+      "suitSymbol": "♦",
+      "cardType": "standard",
+      "orderValue": 15,
+      "straightValue": 14,
+      "primaryPerson": "cube",
+      "depicts": [
+        "cube"
+      ],
+      "relationalIdentityOptions": [
+        "cube"
+      ],
+      "tags": [
+        "standard_card",
+        "ace",
+        "grandchild_card"
+      ],
+      "assignmentStatus": "provisional",
+      "notes": null
+    },
+    {
+      "id": "AH",
+      "rank": "A",
+      "rankLabel": "Ace",
+      "suit": "hearts",
+      "suitSymbol": "♥",
+      "cardType": "standard",
+      "orderValue": 15,
+      "straightValue": 14,
+      "primaryPerson": "net",
+      "depicts": [
+        "net"
+      ],
+      "relationalIdentityOptions": [
+        "net"
+      ],
+      "tags": [
+        "standard_card",
+        "ace",
+        "grandchild_card"
+      ],
+      "assignmentStatus": "provisional",
+      "notes": null
+    },
+    {
+      "id": "AS",
+      "rank": "A",
+      "rankLabel": "Ace",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "standard",
+      "orderValue": 15,
+      "straightValue": 14,
+      "primaryPerson": "ball",
+      "depicts": [
+        "ball"
+      ],
+      "relationalIdentityOptions": [
+        "ball"
+      ],
+      "tags": [
+        "standard_card",
+        "ace",
+        "grandchild_card",
+        "spade",
+        "historical_spade",
+        "ball_card",
+        "jersey_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": null
+    },
+    {
+      "id": "CROWN_S",
+      "rank": "CROWN",
+      "rankLabel": "Crown",
+      "suit": "spades",
+      "suitSymbol": "♠",
+      "cardType": "crown",
+      "orderValue": 14,
+      "straightValue": null,
+      "primaryPerson": null,
+      "depicts": [
+        "queen",
+        "king"
+      ],
+      "relationalIdentityOptions": [
+        "queen",
+        "king"
+      ],
+      "tags": [
+        "extra_card",
+        "spade",
+        "historical_spade",
+        "multi_person_card",
+        "crown_card",
+        "royal_couple_portrait",
+        "parent_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": "Ranks between King and Ace for high-card ordering; excluded from ordinary straights by default."
+    },
+    {
+      "id": "JOKER_KICK",
+      "rank": "JOKER",
+      "rankLabel": "Joker",
+      "suit": null,
+      "suitSymbol": null,
+      "cardType": "joker",
+      "orderValue": 16,
+      "straightValue": null,
+      "primaryPerson": "kick",
+      "depicts": [
+        "kick"
+      ],
+      "relationalIdentityOptions": [
+        "kick"
+      ],
+      "tags": [
+        "joker",
+        "grandfather_card",
+        "kick_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": "Never wild. Represents only Kick."
+    },
+    {
+      "id": "JOKER_MATERNAL",
+      "rank": "JOKER",
+      "rankLabel": "Joker",
+      "suit": null,
+      "suitSymbol": null,
+      "cardType": "joker",
+      "orderValue": 16,
+      "straightValue": null,
+      "primaryPerson": "maternal_grandfather",
+      "depicts": [
+        "maternal_grandfather"
+      ],
+      "relationalIdentityOptions": [
+        "maternal_grandfather"
+      ],
+      "tags": [
+        "joker",
+        "grandfather_card",
+        "maternal_grandfather_card"
+      ],
+      "assignmentStatus": "final",
+      "notes": "Never wild. Represents only the maternal grandfather."
+    }
+  ]
+}

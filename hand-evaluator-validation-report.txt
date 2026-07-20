@@ -1,0 +1,90 @@
+HAND EVALUATOR VALIDATION PASSED
+87/87 checks passed
+
+✓ Five-card classifier recognizes royal_flush
+✓ Five-card classifier recognizes straight_flush
+✓ Five-card classifier recognizes four_of_a_kind
+✓ Five-card classifier recognizes full_house
+✓ Five-card classifier recognizes flush
+✓ Five-card classifier recognizes straight
+✓ Five-card classifier recognizes three_of_a_kind
+✓ Five-card classifier recognizes two_pair
+✓ Five-card classifier recognizes one_pair
+✓ Five-card classifier recognizes high_card
+✓ Seven-card classifier chooses the strongest five-card subset
+✓ Crown does not complete an ordinary straight
+✓ Ranked Joker does not complete an ordinary straight
+✓ Two Jokers form an ordinary pair
+✓ Ordinary hand evaluator matches only the best category
+✓ Echo Pair recognizes two Sleepy representations
+✓ One physical card cannot create an Echo Pair
+✓ Virtual self can complete an Echo Pair
+✓ Echo Two Pair assigns two different people twice
+✓ Echo Three of a Kind recognizes three representations
+✓ Echo Full House recognizes 3-and-2 pattern
+✓ Echo Four of a Kind recognizes four representations
+✓ Married Couple recognizes separate spouse cards
+✓ A wedding portrait alone cannot satisfy Married Couple
+✓ Virtual self can complete Married Couple
+✓ Happy and Light recognizes separate slots
+✓ One 7S cannot be both Happy and Light
+✓ Three Brothers accepts an 8 for one brother
+✓ One 8 cannot satisfy Three Brothers
+✓ Three Sisters recognizes three distinct sisters
+✓ Repeated Snow White cards are not Three Sisters
+✓ Four Sisters recognizes four distinct sisters
+✓ Five Sisters recognizes all five sister slots
+✓ The Three Kids recognizes Cube, Ball, and Net
+✓ Three at the Grill recognizes parents and one child
+✓ One 10S cannot fill all Grill slots
+✓ Virtual Sleepy can help complete Three at the Grill
+✓ Four at the Grill recognizes two children
+✓ Five at the Grill recognizes the complete household
+✓ Jersey Pair requires JS and AS
+✓ Jersey Pair rejects a different Ace
+✓ Dancers is marked probability-only
+✓ Family Album requires 7S and 10S
+✓ Grandparents Album requires QS and KS
+✓ Fun Flight accepts 9S plus KS
+✓ Fun Flight accepts 9S plus Kick Joker
+✓ Fun Flight rejects Pipe Joker
+✓ Full Ancestry accepts one wedding Spade
+✓ Full Ancestry rejects a non-wedding fourth card
+✓ Grandparent and Ace accepts a portrait plus Ace child
+✓ Grandparent and Ace rejects a non-Ace child portrait
+✓ Virtual child can complete Grandparent and Ace
+✓ Heritage recognizes Queen with QS
+✓ Heritage allows Crown to represent the parent
+✓ One QS cannot fill both Heritage slots
+✓ Double Heritage recognizes both portraits and both parents
+✓ Double Heritage lets Crown fill only one parent slot
+✓ Crown alone cannot fill both Double Heritage parent slots
+✓ Virtual King can fill the remaining Double Heritage parent slot
+✓ Brother Time accepts five brother-capable cards
+✓ Brother Time rejects a non-brother fifth card
+✓ Virtual brother supplies one Brother Time slot
+✓ Sister Time accepts five sister-capable cards
+✓ Dynamic Duo recognizes a natural pair
+✓ Dynamic Duo recognizes one natural card plus an 8
+✓ Two 8s alone are not Dynamic Duo
+✓ Virtual self plus an 8 can complete Dynamic Duo
+✓ Family Sleepover accepts an Ace child with a wedding portrait
+✓ Family Sleepover accepts separate non-parent spouses
+✓ Family Sleepover excludes a child’s own parents
+✓ Family Sleepover accepts Queen and King as grandparents
+✓ Virtual Ace child can complete Family Sleepover
+✓ Same-Suit Relationship Pair accepts two brothers
+✓ Same-Suit Relationship Pair accepts two sisters
+✓ Same-Suit Relationship Pair accepts a married couple
+✓ Same-Suit Relationship Pair accepts parent and child
+✓ Same-Suit Relationship Pair rejects different suits
+✓ Virtual self cannot complete a suited relationship
+✓ Two-player attendance ignores virtual self
+✓ Three-player attendance counts two physical players
+✓ Five-player attendance can use virtual self
+✓ Attendance assigns each multi-person card to one player only
+✓ Attendance family evaluator returns generated matches
+✓ Every declared evaluator has executable logic
+✓ Evaluator metadata count matches declared evaluator types
+✓ evaluateHands evaluates multiple definitions
+✓ qualifyingHands filters nonqualifying results

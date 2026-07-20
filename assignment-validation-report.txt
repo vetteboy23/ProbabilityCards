@@ -1,0 +1,40 @@
+CARD ASSIGNMENT ENGINE VALIDATION PASSED
+37/37 checks passed
+
+✓ 8 lists all eight siblings as identity choices
+✓ 10S lists exactly five household members
+✓ Crown lists Queen and King
+✓ Wedding card 3S lists Snow White and Cheese
+✓ One 10S cannot fill both Sleepy and Steak slots
+✓ 10S plus JS can fill Sleepy and Steak separately
+✓ One Crown cannot fill both Queen and King slots
+✓ Crown plus QC can fill Queen and King separately
+✓ One wedding portrait cannot fill both spouses
+✓ Wedding portrait plus a separate spouse card can fill both spouses
+✓ An 8 may fill one missing brother slot
+✓ A single 8 cannot fill Three Brothers
+✓ Two 8s plus one natural brother can fill Three Brothers
+✓ Two different physical cards may form an Echo for the same person
+✓ One physical card cannot count twice toward an Echo
+✓ Virtual self may supply one Echo occurrence
+✓ Virtual Dopey can fill one brother slot when enabled
+✓ Virtual Dopey does not apply when the hand disallows virtual self
+✓ Virtual self cannot satisfy an exact-card slot
+✓ Exact-card requirement succeeds only with the actual cards
+✓ Exact-card requirement rejects a substitute Ace
+✓ Exact-card alternatives select a present alternative
+✓ A card reserved for an exact slot cannot also fill a person slot
+✓ A separate card can fill the person slot beside an exact card
+✓ Distinct-person assignment recognizes three different sisters
+✓ Distinct-person assignment records three different identities
+✓ Repeated cards for one sister do not count as three distinct sisters
+✓ Five group slots can all be assigned as brothers without requiring distinct brothers
+✓ A non-brother card cannot fill Brother Time
+✓ Attendance maximizer finds five represented players with virtual self
+✓ Attendance maximizer uses each contributor only once
+✓ Same-suit assignment succeeds when both relationship cards share a suit
+✓ Same-suit assignment rejects different suits
+✓ Virtual self cannot satisfy a same-suit slot because it has no suit
+✓ Duplicate physical cards are rejected
+✓ Unknown cards are rejected
+✓ Slot kind constants are stable

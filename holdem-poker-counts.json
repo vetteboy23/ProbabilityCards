@@ -1,0 +1,16 @@
+{
+  "generatedBy": "tools/precompute_holdem_poker.cpp",
+  "fullDeckCombinations": 202927725,
+  "decks": {
+    "none": {"deckSize": 53, "total": 154143080, "counts": {"high_card": 29685285, "one_pair": 68109525, "two_pair": 33927606, "three_of_a_kind": 7185200, "straight": 6530105, "flush": 4783251, "full_house": 3639168, "four_of_a_kind": 239512, "straight_flush": 38916, "royal_flush": 4512}},
+    "kick_only": {"deckSize": 54, "total": 177100560, "counts": {"high_card": 37581570, "one_pair": 78929925, "two_pair": 36583974, "three_of_a_kind": 7972272, "straight": 6901775, "flush": 5022036, "full_house": 3808896, "four_of_a_kind": 254800, "straight_flush": 40608, "royal_flush": 4704}},
+    "pipe_only": {"deckSize": 54, "total": 177100560, "counts": {"high_card": 37581570, "one_pair": 78929925, "two_pair": 36583974, "three_of_a_kind": 7972272, "straight": 6901775, "flush": 5022036, "full_house": 3808896, "four_of_a_kind": 254800, "straight_flush": 40608, "royal_flush": 4704}},
+    "both": {"deckSize": 55, "total": 202927725, "counts": {"high_card": 45477855, "one_pair": 91235190, "two_pair": 40547310, "three_of_a_kind": 8759344, "straight": 7283645, "flush": 5266644, "full_house": 4039776, "four_of_a_kind": 270725, "straight_flush": 42336, "royal_flush": 4900}}
+  },
+  "partitionByJokerMask": {
+    "0": {"total": 154143080, "counts": {"high_card": 29685285, "one_pair": 68109525, "two_pair": 33927606, "three_of_a_kind": 7185200, "straight": 6530105, "flush": 4783251, "full_house": 3639168, "four_of_a_kind": 239512, "straight_flush": 38916, "royal_flush": 4512}},
+    "1": {"total": 22957480, "counts": {"high_card": 7896285, "one_pair": 10820400, "two_pair": 2656368, "three_of_a_kind": 787072, "straight": 371670, "flush": 238785, "full_house": 169728, "four_of_a_kind": 15288, "straight_flush": 1692, "royal_flush": 192}},
+    "2": {"total": 22957480, "counts": {"high_card": 7896285, "one_pair": 10820400, "two_pair": 2656368, "three_of_a_kind": 787072, "straight": 371670, "flush": 238785, "full_house": 169728, "four_of_a_kind": 15288, "straight_flush": 1692, "royal_flush": 192}},
+    "3": {"total": 2869685, "counts": {"high_card": 0, "one_pair": 1484865, "two_pair": 1306968, "three_of_a_kind": 0, "straight": 10200, "flush": 5823, "full_house": 61152, "four_of_a_kind": 637, "straight_flush": 36, "royal_flush": 4}}
+  }
+}

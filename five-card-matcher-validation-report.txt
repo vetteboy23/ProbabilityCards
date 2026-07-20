@@ -1,0 +1,70 @@
+FAST FIVE-CARD MATCHER VALIDATION PASSED
+66 matcher/context checks completed
+250 sampled hands per context
+
+✓ echo_pair matches the reference evaluator without virtual self
+✓ echo_two_pair matches the reference evaluator without virtual self
+✓ echo_three_of_a_kind matches the reference evaluator without virtual self
+✓ echo_full_house matches the reference evaluator without virtual self
+✓ echo_four_of_a_kind matches the reference evaluator without virtual self
+✓ echo_five_of_a_kind matches the reference evaluator without virtual self
+✓ echo_six_of_a_kind matches the reference evaluator without virtual self
+✓ echo_seven_of_a_kind matches the reference evaluator without virtual self
+✓ echo_eight_of_a_kind matches the reference evaluator without virtual self
+✓ married_couple matches the reference evaluator without virtual self
+✓ happy_and_light matches the reference evaluator without virtual self
+✓ three_brothers matches the reference evaluator without virtual self
+✓ three_sisters matches the reference evaluator without virtual self
+✓ four_sisters matches the reference evaluator without virtual self
+✓ five_sisters matches the reference evaluator without virtual self
+✓ three_kids matches the reference evaluator without virtual self
+✓ three_at_the_grill matches the reference evaluator without virtual self
+✓ four_at_the_grill matches the reference evaluator without virtual self
+✓ five_at_the_grill matches the reference evaluator without virtual self
+✓ jersey_pair matches the reference evaluator without virtual self
+✓ family_album matches the reference evaluator without virtual self
+✓ grandparents_album matches the reference evaluator without virtual self
+✓ fun_flight matches the reference evaluator without virtual self
+✓ full_ancestry matches the reference evaluator without virtual self
+✓ grandparent_and_ace matches the reference evaluator without virtual self
+✓ heritage matches the reference evaluator without virtual self
+✓ double_heritage matches the reference evaluator without virtual self
+✓ brother_time matches the reference evaluator without virtual self
+✓ sister_time matches the reference evaluator without virtual self
+✓ dynamic_duo matches the reference evaluator without virtual self
+✓ family_sleepover matches the reference evaluator without virtual self
+✓ same_suit_relationship_pair matches the reference evaluator without virtual self
+✓ Attendance maximum matches the reference evaluator without virtual self
+✓ echo_pair matches the reference evaluator with Sleepy as virtual self
+✓ echo_two_pair matches the reference evaluator with Sleepy as virtual self
+✓ echo_three_of_a_kind matches the reference evaluator with Sleepy as virtual self
+✓ echo_full_house matches the reference evaluator with Sleepy as virtual self
+✓ echo_four_of_a_kind matches the reference evaluator with Sleepy as virtual self
+✓ echo_five_of_a_kind matches the reference evaluator with Sleepy as virtual self
+✓ echo_six_of_a_kind matches the reference evaluator with Sleepy as virtual self
+✓ echo_seven_of_a_kind matches the reference evaluator with Sleepy as virtual self
+✓ echo_eight_of_a_kind matches the reference evaluator with Sleepy as virtual self
+✓ married_couple matches the reference evaluator with Sleepy as virtual self
+✓ happy_and_light matches the reference evaluator with Sleepy as virtual self
+✓ three_brothers matches the reference evaluator with Sleepy as virtual self
+✓ three_sisters matches the reference evaluator with Sleepy as virtual self
+✓ four_sisters matches the reference evaluator with Sleepy as virtual self
+✓ five_sisters matches the reference evaluator with Sleepy as virtual self
+✓ three_kids matches the reference evaluator with Sleepy as virtual self
+✓ three_at_the_grill matches the reference evaluator with Sleepy as virtual self
+✓ four_at_the_grill matches the reference evaluator with Sleepy as virtual self
+✓ five_at_the_grill matches the reference evaluator with Sleepy as virtual self
+✓ jersey_pair matches the reference evaluator with Sleepy as virtual self
+✓ family_album matches the reference evaluator with Sleepy as virtual self
+✓ grandparents_album matches the reference evaluator with Sleepy as virtual self
+✓ fun_flight matches the reference evaluator with Sleepy as virtual self
+✓ full_ancestry matches the reference evaluator with Sleepy as virtual self
+✓ grandparent_and_ace matches the reference evaluator with Sleepy as virtual self
+✓ heritage matches the reference evaluator with Sleepy as virtual self
+✓ double_heritage matches the reference evaluator with Sleepy as virtual self
+✓ brother_time matches the reference evaluator with Sleepy as virtual self
+✓ sister_time matches the reference evaluator with Sleepy as virtual self
+✓ dynamic_duo matches the reference evaluator with Sleepy as virtual self
+✓ family_sleepover matches the reference evaluator with Sleepy as virtual self
+✓ same_suit_relationship_pair matches the reference evaluator with Sleepy as virtual self
+✓ Attendance maximum matches the reference evaluator with Sleepy as virtual self

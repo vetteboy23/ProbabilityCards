@@ -1,0 +1,6 @@
+Hold’em native/JavaScript cross-validation
+==========================================
+Samples: 3000
+Checks: 99000
+Result: PASS
+Compared the native precomputation predicates with JavaScript on ordinary poker and every fixed family/optional hand except the abstract Dancers pair and generated attendance hands.

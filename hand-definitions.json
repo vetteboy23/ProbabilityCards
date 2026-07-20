@@ -1,0 +1,1762 @@
+{
+  "metadata": {
+    "version": 2,
+    "relationalCardMaximumPeoplePerPhysicalCard": 1,
+    "virtualSelfIsPhysicalCard": false,
+    "virtualSelfHasSuit": false,
+    "probabilityUsesVirtualSelf": false,
+    "probabilityRankingScope": "shared_table_ranking",
+    "jokersAreWild": false,
+    "standardPokerHandCount": 10,
+    "builtInHandCount": 35,
+    "selectableHandCount": 8,
+    "generatedHandFamilyCount": 1,
+    "knownPersonCount": 23,
+    "knownCardCount": 55
+  },
+  "fixedRankingTiers": {
+    "rare_exact_pair": {
+      "id": "rare_exact_pair",
+      "name": "Rare Exact Pair",
+      "handIds": [
+        "jersey_pair",
+        "dancers",
+        "family_album",
+        "grandparents_album",
+        "fun_flight"
+      ],
+      "rankingRule": "All members tie for gameplay rank; actual probabilities may still be displayed."
+    }
+  },
+  "hands": [
+    {
+      "id": "high_card",
+      "name": "High Card",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "High Card under the ordinary poker rules for the selected deck.",
+      "shortDescription": "High Card under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "High Card under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "high_card",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "one_pair",
+      "name": "One Pair",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "One Pair under the ordinary poker rules for the selected deck.",
+      "shortDescription": "One Pair under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "One Pair under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "one_pair",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "two_pair",
+      "name": "Two Pair",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Two Pair under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Two Pair under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Two Pair under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "two_pair",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "three_of_a_kind",
+      "name": "Three of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Three of a Kind under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Three of a Kind under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Three of a Kind under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "three_of_a_kind",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "straight",
+      "name": "Straight",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Straight under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Straight under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Straight under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "straight",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "flush",
+      "name": "Flush",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Flush under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Flush under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Flush under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "flush",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "full_house",
+      "name": "Full House",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Full House under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Full House under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Full House under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "full_house",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "four_of_a_kind",
+      "name": "Four of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Four of a Kind under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Four of a Kind under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Four of a Kind under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "four_of_a_kind",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "straight_flush",
+      "name": "Straight Flush",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Straight Flush under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Straight Flush under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Straight Flush under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "straight_flush",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "royal_flush",
+      "name": "Royal Flush",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "standard_poker",
+      "evaluator": "standard_poker_category",
+      "description": "Royal Flush under the ordinary poker rules for the selected deck.",
+      "shortDescription": "Royal Flush under the ordinary poker rules for the selected deck.",
+      "ruleSummary": "Royal Flush under the ordinary poker rules for the selected deck.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "pokerCategory": "royal_flush",
+        "crownInOrdinaryStraights": false,
+        "rankedJokersInOrdinaryStraights": false,
+        "jokersAreWild": false
+      },
+      "notes": []
+    },
+    {
+      "id": "echo_pair",
+      "name": "Echo Pair",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in two contributing slots.",
+      "shortDescription": "The same person is represented in two contributing slots.",
+      "ruleSummary": "The same person is represented in two contributing slots.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 2
+      },
+      "notes": []
+    },
+    {
+      "id": "echo_two_pair",
+      "name": "Echo Two Pair",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_pattern",
+      "description": "Two different people are each represented twice.",
+      "shortDescription": "Two different people are each represented twice.",
+      "ruleSummary": "Two different people are each represented twice.",
+      "minimumPhysicalCards": 3,
+      "minimumContributingSlots": 4,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicities": [
+          2,
+          2
+        ],
+        "requireDifferentPeople": true
+      },
+      "notes": []
+    },
+    {
+      "id": "echo_three_of_a_kind",
+      "name": "Echo Three of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in three contributing slots.",
+      "shortDescription": "The same person is represented in three contributing slots.",
+      "ruleSummary": "The same person is represented in three contributing slots.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 3,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 3
+      },
+      "notes": []
+    },
+    {
+      "id": "echo_full_house",
+      "name": "Echo Full House",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_pattern",
+      "description": "One person is represented three times and another person twice.",
+      "shortDescription": "One person is represented three times and another person twice.",
+      "ruleSummary": "One person is represented three times and another person twice.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicities": [
+          3,
+          2
+        ],
+        "requireDifferentPeople": true
+      },
+      "notes": []
+    },
+    {
+      "id": "echo_four_of_a_kind",
+      "name": "Echo Four of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in 4 contributing slots.",
+      "shortDescription": "The same person is represented in 4 contributing slots.",
+      "ruleSummary": "The same person is represented in 4 contributing slots.",
+      "minimumPhysicalCards": 3,
+      "minimumContributingSlots": 4,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 4
+      },
+      "notes": [
+        "The selected game format and virtual-self setting determine whether this level is possible."
+      ]
+    },
+    {
+      "id": "echo_five_of_a_kind",
+      "name": "Echo Five of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in 5 contributing slots.",
+      "shortDescription": "The same person is represented in 5 contributing slots.",
+      "ruleSummary": "The same person is represented in 5 contributing slots.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 5
+      },
+      "notes": [
+        "The selected game format and virtual-self setting determine whether this level is possible."
+      ]
+    },
+    {
+      "id": "echo_six_of_a_kind",
+      "name": "Echo Six of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in 6 contributing slots.",
+      "shortDescription": "The same person is represented in 6 contributing slots.",
+      "ruleSummary": "The same person is represented in 6 contributing slots.",
+      "minimumPhysicalCards": 5,
+      "minimumContributingSlots": 6,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 6
+      },
+      "notes": [
+        "The selected game format and virtual-self setting determine whether this level is possible."
+      ]
+    },
+    {
+      "id": "echo_seven_of_a_kind",
+      "name": "Echo Seven of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in 7 contributing slots.",
+      "shortDescription": "The same person is represented in 7 contributing slots.",
+      "ruleSummary": "The same person is represented in 7 contributing slots.",
+      "minimumPhysicalCards": 6,
+      "minimumContributingSlots": 7,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 7
+      },
+      "notes": [
+        "The selected game format and virtual-self setting determine whether this level is possible."
+      ]
+    },
+    {
+      "id": "echo_eight_of_a_kind",
+      "name": "Echo Eight of a Kind",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "echo",
+      "evaluator": "echo_multiplicity",
+      "description": "The same person is represented in 8 contributing slots.",
+      "shortDescription": "The same person is represented in 8 contributing slots.",
+      "ruleSummary": "The same person is represented in 8 contributing slots.",
+      "minimumPhysicalCards": 7,
+      "minimumContributingSlots": 8,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "multiplicity": 8
+      },
+      "notes": [
+        "The selected game format and virtual-self setting determine whether this level is possible."
+      ]
+    },
+    {
+      "id": "married_couple",
+      "name": "Married Couple",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "any_recognized_couple",
+      "description": "Two contributing slots represent both members of any recognized couple.",
+      "shortDescription": "Two contributing slots represent both members of any recognized couple.",
+      "ruleSummary": "Two contributing slots represent both members of any recognized couple.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "couples": [
+          {
+            "id": "snow_white_cheese",
+            "partners": [
+              "snow_white",
+              "cheese"
+            ]
+          },
+          {
+            "id": "grumpy_old_fashioned",
+            "partners": [
+              "grumpy",
+              "old_fashioned"
+            ]
+          },
+          {
+            "id": "sneezy_beer",
+            "partners": [
+              "sneezy",
+              "beer"
+            ]
+          },
+          {
+            "id": "sleepy_steak",
+            "partners": [
+              "sleepy",
+              "steak"
+            ]
+          },
+          {
+            "id": "queen_king",
+            "partners": [
+              "queen",
+              "king"
+            ]
+          },
+          {
+            "id": "maternal_grandparents",
+            "partners": [
+              "maternal_grandmother",
+              "maternal_grandfather"
+            ]
+          },
+          {
+            "id": "paternal_grandparents",
+            "partners": [
+              "paternal_grandmother",
+              "kick"
+            ]
+          }
+        ],
+        "requireSeparateSlots": true,
+        "multiPersonCardMayFillOnlyOnePartner": true
+      },
+      "notes": []
+    },
+    {
+      "id": "happy_and_light",
+      "name": "Happy and Light",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "exact_people_group",
+      "description": "Happy and Light are represented in two separate slots.",
+      "shortDescription": "Happy and Light are represented in two separate slots.",
+      "ruleSummary": "Happy and Light are represented in two separate slots.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "people": [
+          "happy",
+          "light"
+        ],
+        "distinctPeople": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "three_brothers",
+      "name": "Three Brothers",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "exact_people_group",
+      "description": "Dopey, Doc, and Bashful are represented in separate slots.",
+      "shortDescription": "Dopey, Doc, and Bashful are represented in separate slots.",
+      "ruleSummary": "Dopey, Doc, and Bashful are represented in separate slots.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 3,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "people": [
+          "dopey",
+          "doc",
+          "bashful"
+        ],
+        "distinctPeople": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "three_sisters",
+      "name": "Three Sisters",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "choose_distinct_people",
+      "description": "3 different sisters are represented in separate slots.",
+      "shortDescription": "3 different sisters are represented in separate slots.",
+      "ruleSummary": "3 different sisters are represented in separate slots.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 3,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "peoplePool": [
+          "snow_white",
+          "grumpy",
+          "sneezy",
+          "happy",
+          "sleepy"
+        ],
+        "requiredCount": 3,
+        "distinctPeople": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "four_sisters",
+      "name": "Four Sisters",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "choose_distinct_people",
+      "description": "4 different sisters are represented in separate slots.",
+      "shortDescription": "4 different sisters are represented in separate slots.",
+      "ruleSummary": "4 different sisters are represented in separate slots.",
+      "minimumPhysicalCards": 3,
+      "minimumContributingSlots": 4,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "peoplePool": [
+          "snow_white",
+          "grumpy",
+          "sneezy",
+          "happy",
+          "sleepy"
+        ],
+        "requiredCount": 4,
+        "distinctPeople": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "five_sisters",
+      "name": "Five Sisters",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "choose_distinct_people",
+      "description": "5 different sisters are represented in separate slots.",
+      "shortDescription": "5 different sisters are represented in separate slots.",
+      "ruleSummary": "5 different sisters are represented in separate slots.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "peoplePool": [
+          "snow_white",
+          "grumpy",
+          "sneezy",
+          "happy",
+          "sleepy"
+        ],
+        "requiredCount": 5,
+        "distinctPeople": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "three_kids",
+      "name": "The Three Kids",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "exact_people_group",
+      "description": "Cube, Ball, and Net are represented in separate slots.",
+      "shortDescription": "Cube, Ball, and Net are represented in separate slots.",
+      "ruleSummary": "Cube, Ball, and Net are represented in separate slots.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 3,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "people": [
+          "cube",
+          "ball",
+          "net"
+        ],
+        "distinctPeople": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "three_at_the_grill",
+      "name": "Three at the Grill",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "at_the_grill",
+      "description": "Sleepy, Steak, and one child are represented in separate slots.",
+      "shortDescription": "Sleepy, Steak, and one child are represented in separate slots.",
+      "ruleSummary": "Sleepy, Steak, and one child are represented in separate slots.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 3,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "requiredAdults": [
+          "sleepy",
+          "steak"
+        ],
+        "childrenPool": [
+          "cube",
+          "ball",
+          "net"
+        ],
+        "requiredChildCount": 1,
+        "distinctPeople": true,
+        "requireSeparateSlots": true,
+        "tenOfSpadesMayRepresentOneHouseholdMember": true
+      },
+      "notes": []
+    },
+    {
+      "id": "four_at_the_grill",
+      "name": "Four at the Grill",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "at_the_grill",
+      "description": "Sleepy, Steak, and two children are represented in separate slots.",
+      "shortDescription": "Sleepy, Steak, and two children are represented in separate slots.",
+      "ruleSummary": "Sleepy, Steak, and two children are represented in separate slots.",
+      "minimumPhysicalCards": 3,
+      "minimumContributingSlots": 4,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "requiredAdults": [
+          "sleepy",
+          "steak"
+        ],
+        "childrenPool": [
+          "cube",
+          "ball",
+          "net"
+        ],
+        "requiredChildCount": 2,
+        "distinctPeople": true,
+        "requireSeparateSlots": true,
+        "tenOfSpadesMayRepresentOneHouseholdMember": true
+      },
+      "notes": []
+    },
+    {
+      "id": "five_at_the_grill",
+      "name": "Five at the Grill",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "at_the_grill",
+      "description": "Sleepy, Steak, and all three children are represented in separate slots.",
+      "shortDescription": "Sleepy, Steak, and all three children are represented in separate slots.",
+      "ruleSummary": "Sleepy, Steak, and all three children are represented in separate slots.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "requiredAdults": [
+          "sleepy",
+          "steak"
+        ],
+        "childrenPool": [
+          "cube",
+          "ball",
+          "net"
+        ],
+        "requiredChildCount": 3,
+        "distinctPeople": true,
+        "requireSeparateSlots": true,
+        "tenOfSpadesMayRepresentOneHouseholdMember": true
+      },
+      "notes": []
+    },
+    {
+      "id": "jersey_pair",
+      "name": "Jersey Pair",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "exact_card",
+      "evaluator": "exact_card_set",
+      "description": "The exact J♠ Steak card and A♠ Ball card appear together.",
+      "shortDescription": "The exact J♠ Steak card and A♠ Ball card appear together.",
+      "ruleSummary": "The exact J♠ Steak card and A♠ Ball card appear together.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "fixed_tier",
+      "rankingTier": "rare_exact_pair",
+      "requirements": {
+        "requiredCardIds": [
+          "JS",
+          "AS"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "dancers",
+      "name": "Dancers",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "exact_card",
+      "evaluator": "fixed_specific_card_pair_probability",
+      "description": "A fixed pair of two specific physical cards appears together.",
+      "shortDescription": "A fixed pair of two specific physical cards appears together.",
+      "ruleSummary": "A fixed pair of two specific physical cards appears together.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "fixed_tier",
+      "rankingTier": "rare_exact_pair",
+      "requirements": {
+        "specificPhysicalCardCount": 2
+      },
+      "notes": [
+        "The actual card IDs are intentionally not stored because only the exact pair probability is needed."
+      ]
+    },
+    {
+      "id": "family_album",
+      "name": "Family Album",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "exact_card",
+      "evaluator": "exact_card_set",
+      "description": "The exact 7♠ and 10♠ household portraits appear together.",
+      "shortDescription": "The exact 7♠ and 10♠ household portraits appear together.",
+      "ruleSummary": "The exact 7♠ and 10♠ household portraits appear together.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "fixed_tier",
+      "rankingTier": "rare_exact_pair",
+      "requirements": {
+        "requiredCardIds": [
+          "7S",
+          "10S"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "grandparents_album",
+      "name": "Grandparents Album",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "exact_card",
+      "evaluator": "exact_card_set",
+      "description": "The exact Q♠ and K♠ grandparent portraits appear together.",
+      "shortDescription": "The exact Q♠ and K♠ grandparent portraits appear together.",
+      "ruleSummary": "The exact Q♠ and K♠ grandparent portraits appear together.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "fixed_tier",
+      "rankingTier": "rare_exact_pair",
+      "requirements": {
+        "requiredCardIds": [
+          "QS",
+          "KS"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "fun_flight",
+      "name": "Fun Flight",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "exact_card",
+      "evaluator": "exact_card_alternatives",
+      "description": "The exact 9♠ Fly portrait appears with K♠ or Kick’s Joker.",
+      "shortDescription": "The exact 9♠ Fly portrait appears with K♠ or Kick’s Joker.",
+      "ruleSummary": "The exact 9♠ Fly portrait appears with K♠ or Kick’s Joker.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "fixed_tier",
+      "rankingTier": "rare_exact_pair",
+      "requirements": {
+        "alternatives": [
+          [
+            "9S",
+            "KS"
+          ],
+          [
+            "9S",
+            "JOKER_KICK"
+          ]
+        ],
+        "notes": "Its true probability may differ by Joker setting, but its gameplay rank is tied to the other rare exact pairs."
+      },
+      "notes": []
+    },
+    {
+      "id": "full_ancestry",
+      "name": "Full Ancestry",
+      "availability": "built_in",
+      "builtIn": true,
+      "selectable": false,
+      "generated": false,
+      "category": "exact_card",
+      "evaluator": "exact_card_set_with_one_of",
+      "description": "Crown♠, Q♠, K♠, and one wedding Spade appear together.",
+      "shortDescription": "Crown♠, Q♠, K♠, and one wedding Spade appear together.",
+      "ruleSummary": "Crown♠, Q♠, K♠, and one wedding Spade appear together.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 4,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "requiredCardIds": [
+          "CROWN_S",
+          "QS",
+          "KS"
+        ],
+        "oneOfCardIds": [
+          "3S",
+          "4S",
+          "5S"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "grandparent_and_ace",
+      "name": "Grandparent and Ace",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "grandparent_and_child",
+      "description": "A grandparent is represented with one of the four Ace children.",
+      "shortDescription": "A grandparent together with one of the four Ace children.",
+      "ruleSummary": "Separate slots represent any grandparent and Light, Cube, Ball, or Net. Virtual self may fill the child slot when applicable.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "grandparentPeople": [
+          "maternal_grandmother",
+          "maternal_grandfather",
+          "paternal_grandmother",
+          "kick"
+        ],
+        "childPeople": [
+          "light",
+          "cube",
+          "ball",
+          "net"
+        ],
+        "childPhysicalCardsUseRank": "A",
+        "allowVirtualSelfForChild": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "heritage",
+      "description": "A parent appears with that parent’s grandparent portrait.",
+      "shortDescription": "A parent appears with that parent’s grandparent portrait.",
+      "ruleSummary": "Queen plus Q♠, or King plus K♠, using separate slots. Crown♠ may represent one parent, and virtual self may fill the matching parent slot.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "alternatives": [
+          {
+            "parentPerson": "queen",
+            "portraitCardId": "QS"
+          },
+          {
+            "parentPerson": "king",
+            "portraitCardId": "KS"
+          }
+        ],
+        "parentMayBeCrown": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "double_heritage",
+      "name": "Double Heritage",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "double_heritage",
+      "description": "Both parents appear with both grandparent portraits.",
+      "shortDescription": "Both parents appear with both grandparent portraits.",
+      "ruleSummary": "Separate slots represent Queen and King with the exact Q♠ and K♠ cards. Crown♠ may fill only one parent slot, and virtual self may fill one matching parent slot.",
+      "minimumPhysicalCards": 3,
+      "minimumContributingSlots": 4,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "parentPeople": [
+          "queen",
+          "king"
+        ],
+        "requiredPortraitCardIds": [
+          "QS",
+          "KS"
+        ],
+        "crownCardId": "CROWN_S",
+        "crownMayFillMaximumParentSlots": 1,
+        "virtualSelfMayFillMaximumParentSlots": 1,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "brother_time",
+      "name": "Brother Time",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "all_slots_from_group",
+      "description": "Five contributing slots can each be assigned as a brother.",
+      "shortDescription": "Five contributing slots all represent brothers.",
+      "ruleSummary": "Each slot represents Dopey, Doc, or Bashful. An 8 may fill one brother slot, and virtual self supplies one slot when the player is a brother.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "peoplePool": [
+          "dopey",
+          "doc",
+          "bashful"
+        ],
+        "requiredSlotCount": 5,
+        "distinctPeopleRequired": false,
+        "everyContributingSlotMustMatchGroup": true
+      },
+      "notes": []
+    },
+    {
+      "id": "sister_time",
+      "name": "Sister Time",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "all_slots_from_group",
+      "description": "Five contributing slots can each be assigned as a sister.",
+      "shortDescription": "Five contributing slots all represent sisters.",
+      "ruleSummary": "Each slot represents Snow White, Grumpy, Sneezy, Happy, or Sleepy. An 8 may fill one sister slot, and virtual self supplies one slot when the player is a sister.",
+      "minimumPhysicalCards": 4,
+      "minimumContributingSlots": 5,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "peoplePool": [
+          "snow_white",
+          "grumpy",
+          "sneezy",
+          "happy",
+          "sleepy"
+        ],
+        "requiredSlotCount": 5,
+        "distinctPeopleRequired": false,
+        "everyContributingSlotMustMatchGroup": true
+      },
+      "notes": []
+    },
+    {
+      "id": "dynamic_duo",
+      "name": "Dynamic Duo",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "dynamic_duo",
+      "description": "One of the paired sibling-rank combinations is completed, with one 8 allowed as a substitute.",
+      "shortDescription": "A paired sibling-rank combination, with one 8 allowed as a substitute.",
+      "ruleSummary": "Qualifying pairs are 2+3, 4+5, 6+7, or 9+10. One 8 or virtual self may replace one matching person slot; two 8s alone do not qualify.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "rankPairs": [
+          [
+            "2",
+            "3"
+          ],
+          [
+            "4",
+            "5"
+          ],
+          [
+            "6",
+            "7"
+          ],
+          [
+            "9",
+            "10"
+          ]
+        ],
+        "personPairs": [
+          [
+            "dopey",
+            "snow_white"
+          ],
+          [
+            "grumpy",
+            "sneezy"
+          ],
+          [
+            "doc",
+            "happy"
+          ],
+          [
+            "bashful",
+            "sleepy"
+          ]
+        ],
+        "maximumEightSubstitutions": 1,
+        "maximumVirtualSelfSubstitutions": 1,
+        "requireAtLeastOneNaturalRankCardWhenNoVirtualSelf": true,
+        "requireSeparateSlots": true
+      },
+      "notes": []
+    },
+    {
+      "id": "family_sleepover",
+      "name": "Family Sleepover",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "family_sleepover",
+      "description": "One Ace child appears with a non-parent married couple or with Queen and King as both grandparents.",
+      "shortDescription": "An Ace child stays with a non-parent couple or with both grandparents.",
+      "ruleSummary": "A child appears with a married couple who are not that child’s parents, through their wedding portrait or separate spouse slots; Queen and King may instead serve as both grandparents. Virtual self may fill one person slot.",
+      "minimumPhysicalCards": 1,
+      "minimumContributingSlots": 3,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": true,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "childPeople": [
+          "light",
+          "cube",
+          "ball",
+          "net"
+        ],
+        "childRank": "A",
+        "auntUncleCouples": [
+          {
+            "id": "snow_white_cheese",
+            "partners": [
+              "snow_white",
+              "cheese"
+            ],
+            "weddingCardId": "3S"
+          },
+          {
+            "id": "grumpy_old_fashioned",
+            "partners": [
+              "grumpy",
+              "old_fashioned"
+            ],
+            "weddingCardId": "4S"
+          },
+          {
+            "id": "sneezy_beer",
+            "partners": [
+              "sneezy",
+              "beer"
+            ],
+            "weddingCardId": "5S"
+          },
+          {
+            "id": "sleepy_steak",
+            "partners": [
+              "sleepy",
+              "steak"
+            ],
+            "weddingCardId": null
+          }
+        ],
+        "childParents": {
+          "light": [
+            "happy"
+          ],
+          "cube": [
+            "sleepy",
+            "steak"
+          ],
+          "ball": [
+            "sleepy",
+            "steak"
+          ],
+          "net": [
+            "sleepy",
+            "steak"
+          ]
+        },
+        "grandparentsAlternative": [
+          "queen",
+          "king"
+        ],
+        "couplePortraitMaySatisfyBothHosts": true,
+        "separateSpouseSlotsAlsoAllowed": true,
+        "virtualSelfMayFillMaximumPersonSlots": 1
+      },
+      "notes": []
+    },
+    {
+      "id": "same_suit_relationship_pair",
+      "name": "Same-Suit Relationship Pair",
+      "availability": "selectable",
+      "builtIn": false,
+      "selectable": true,
+      "generated": false,
+      "category": "relationship",
+      "evaluator": "same_suit_relationship_pair",
+      "description": "An approved relationship pair appears in one common suit.",
+      "shortDescription": "An approved relationship pair appears in one common suit.",
+      "ruleSummary": "Qualifying subtypes include two brothers, two sisters, a married couple, or a direct parent and child in the same suit. Virtual self cannot help because it has no suit.",
+      "minimumPhysicalCards": 2,
+      "minimumContributingSlots": 2,
+      "virtualSelfAllowed": false,
+      "exactCardRequirement": false,
+      "suitRequirement": true,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "calculated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "allowedSubtypes": [
+          {
+            "id": "two_brothers_same_suit",
+            "type": "choose_distinct_people",
+            "peoplePool": [
+              "dopey",
+              "doc",
+              "bashful"
+            ],
+            "requiredCount": 2
+          },
+          {
+            "id": "two_sisters_same_suit",
+            "type": "choose_distinct_people",
+            "peoplePool": [
+              "snow_white",
+              "grumpy",
+              "sneezy",
+              "happy",
+              "sleepy"
+            ],
+            "requiredCount": 2
+          },
+          {
+            "id": "married_couple_same_suit",
+            "type": "recognized_couple",
+            "couples": [
+              {
+                "id": "snow_white_cheese",
+                "partners": [
+                  "snow_white",
+                  "cheese"
+                ]
+              },
+              {
+                "id": "grumpy_old_fashioned",
+                "partners": [
+                  "grumpy",
+                  "old_fashioned"
+                ]
+              },
+              {
+                "id": "sneezy_beer",
+                "partners": [
+                  "sneezy",
+                  "beer"
+                ]
+              },
+              {
+                "id": "sleepy_steak",
+                "partners": [
+                  "sleepy",
+                  "steak"
+                ]
+              },
+              {
+                "id": "queen_king",
+                "partners": [
+                  "queen",
+                  "king"
+                ]
+              },
+              {
+                "id": "maternal_grandparents",
+                "partners": [
+                  "maternal_grandmother",
+                  "maternal_grandfather"
+                ]
+              },
+              {
+                "id": "paternal_grandparents",
+                "partners": [
+                  "paternal_grandmother",
+                  "kick"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "parent_child_same_suit",
+            "type": "direct_parent_child",
+            "relationships": [
+              {
+                "id": "happy_light",
+                "parents": [
+                  "happy"
+                ],
+                "children": [
+                  "light"
+                ]
+              },
+              {
+                "id": "sleepy_steak_children",
+                "parents": [
+                  "sleepy",
+                  "steak"
+                ],
+                "children": [
+                  "cube",
+                  "ball",
+                  "net"
+                ]
+              }
+            ]
+          }
+        ],
+        "requireSameSuit": true,
+        "requireSeparatePhysicalCards": true,
+        "multiPersonCardMayFillOnlyOnePerson": true
+      },
+      "notes": []
+    },
+    {
+      "id": "attendance_players_represented",
+      "name": "Players Represented",
+      "availability": "generated",
+      "builtIn": false,
+      "selectable": false,
+      "generated": true,
+      "category": "attendance",
+      "evaluator": "attendance_generator",
+      "description": "Runtime-generated hands based on the selected number of players and game format.",
+      "shortDescription": "Runtime-generated hands based on the selected number of players and game format.",
+      "ruleSummary": "Runtime-generated hands based on the selected number of players and game format.",
+      "minimumPhysicalCards": 0,
+      "minimumContributingSlots": 0,
+      "virtualSelfAllowed": true,
+      "exactCardRequirement": false,
+      "suitRequirement": false,
+      "supportedFormats": [
+        "five_card_draw",
+        "texas_holdem"
+      ],
+      "rankingMode": "generated_probability",
+      "rankingTier": null,
+      "requirements": {
+        "twoPlayers": [
+          2
+        ],
+        "threePlayers": [
+          2,
+          3
+        ],
+        "fourPlayers": [
+          3,
+          4
+        ],
+        "fiveOrMorePlayersStartAt": 4,
+        "fiveCardMaximumWithoutSelf": 5,
+        "fiveCardMaximumWithSelf": 6,
+        "holdemMaximumWithoutSelf": 7,
+        "holdemMaximumWithSelf": 8,
+        "virtualSelfDisabledForPlayerCounts": [
+          2,
+          3,
+          4
+        ],
+        "multiPersonCardMayFillOnlyOnePlayer": true,
+        "probabilityUsesVirtualSelf": false
+      },
+      "notes": [
+        "Virtual self may upgrade a hand during play, but generated probability rankings use physical cards only."
+      ]
+    }
+  ]
+}

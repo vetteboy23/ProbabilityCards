@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Card Hand Ranking</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="page-header">
+      <p class="eyebrow">Family playing-card probability app</p>
+      <h1>Create the game’s hand ranking</h1>
+      <p>Select the game rules. The app calculates one exact, shared probability ranking for players to consult during the game.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="players-heading">
+      <div class="section-heading-row">
+        <div>
+          <h2 id="players-heading">Who is playing?</h2>
+          <p>Select at least two people.</p>
+        </div>
+        <span id="selected-count" class="count-badge" aria-live="polite">0 selected</span>
+      </div>
+
+      <div class="list-actions">
+        <button id="select-all-players" class="secondary-button" type="button">Select all</button>
+        <button id="clear-players" class="secondary-button" type="button">Clear</button>
+      </div>
+
+      <div id="player-list" class="player-list" aria-label="Selectable players"></div>
+    </section>
+
+    <div class="two-column-grid">
+      <section class="panel" aria-labelledby="format-heading">
+        <h2 id="format-heading">Game format</h2>
+        <label class="radio-option">
+          <input type="radio" name="format" value="five_card_draw" checked>
+          <span id="format-draw-label">Five-card draw</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="format" value="texas_holdem">
+          <span id="format-holdem-label">Texas Hold’em</span>
+        </label>
+      </section>
+
+      <section class="panel" aria-labelledby="jokers-heading">
+        <h2 id="jokers-heading">Jokers in the deck</h2>
+        <label class="radio-option">
+          <input type="radio" name="jokers" value="none">
+          <span id="joker-none-label">No Jokers</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="jokers" value="kick_only">
+          <span id="joker-kick-label">Kick only</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="jokers" value="pipe_only">
+          <span id="joker-pipe-label">Pipe only</span>
+        </label>
+        <label class="radio-option">
+          <input type="radio" name="jokers" value="both" checked>
+          <span id="joker-both-label">Kick and Pipe</span>
+        </label>
+      </section>
+    </div>
+
+    <section class="panel" aria-labelledby="self-heading">
+      <label class="switch-row" for="use-virtual-self">
+        <span>
+          <strong id="self-heading">Use virtual self</strong>
+          <small>The player may count themselves as one relational representation during play. This is a bonus and does not alter the probability ranking.</small>
+        </span>
+        <input id="use-virtual-self" type="checkbox">
+      </label>
+    </section>
+
+    <section class="panel" aria-labelledby="optional-hands-heading">
+      <div class="section-heading-row">
+        <div>
+          <h2 id="optional-hands-heading">Choose optional hands</h2>
+          <p>Built-in hands always count. Select only the additional hands you want included.</p>
+        </div>
+        <span id="selected-hand-count" class="count-badge" aria-live="polite">0 selected</span>
+      </div>
+
+      <div class="list-actions">
+        <button id="select-all-hands" class="secondary-button" type="button">Select all</button>
+        <button id="clear-hands" class="secondary-button" type="button">Clear</button>
+      </div>
+
+      <div id="optional-hand-list" class="optional-hand-list" aria-label="Selectable optional hands"></div>
+    </section>
+
+    <p id="setup-feedback" class="feedback" role="alert" tabindex="-1"></p>
+
+    <button id="create-ranking" class="primary-button" type="button">Create ranking</button>
+
+    <section id="calculation-panel" class="result-panel calculation-panel" aria-labelledby="calculation-heading" hidden>
+      <div class="section-heading-row">
+        <div>
+          <h2 id="calculation-heading">Calculating exact probabilities</h2>
+          <p id="calculation-status" class="note" aria-live="polite">Preparing the deck…</p>
+        </div>
+        <button id="cancel-calculation" class="secondary-button" type="button">Cancel</button>
+      </div>
+      <progress id="calculation-progress" max="1" value="0"></progress>
+    </section>
+
+    <section id="ranking-result" class="result-panel ranking-panel" aria-labelledby="ranking-heading" hidden>
+      <div class="ranking-header">
+        <div>
+          <p class="eyebrow">Static game reference</p>
+          <h2 id="ranking-heading">Hand hierarchy</h2>
+          <p id="ranking-summary" class="note"></p>
+        </div>
+        <div class="ranking-actions no-print">
+          <label for="ranking-direction">Display order</label>
+          <select id="ranking-direction">
+            <option value="strongest_first">Strongest to weakest</option>
+            <option value="weakest_first">Weakest to strongest</option>
+          </select>
+          <div class="ranking-action-buttons">
+            <button id="change-setup" class="secondary-button" type="button">Change setup</button>
+            <button id="print-ranking" class="secondary-button" type="button">Print</button>
+          </div>
+        </div>
+      </div>
+
+      <dl id="result-summary" class="summary-grid"></dl>
+
+      <div class="ranking-notes">
+        <p id="probability-note" class="note"></p>
+        <p class="note">Rarer hands rank higher. Probability percentages use physical cards only.</p>
+        <p class="note">Jersey Pair, Dancers, Family Album, Grandparents Album, and Fun Flight share one house-rule rank, although their displayed percentages may differ.</p>
+      </div>
+
+      <div class="table-wrap">
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th scope="col">Rank</th>
+              <th scope="col">Hand</th>
+              <th scope="col">Definition</th>
+              <th scope="col">Probability</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-body"></tbody>
+        </table>
+      </div>
+
+      <details class="no-print">
+        <summary>View generated settings object</summary>
+        <pre id="settings-output"></pre>
+      </details>
+    </section>
+
+    <footer class="no-print">
+      <a href="./validate.html">Open project validation</a>
+    </footer>
+  </main>
+
+  <script type="module" src="./src/setupUI.js"></script>
+</body>
+</html>
