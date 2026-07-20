@@ -1,0 +1,20 @@
+{
+  "name": "family-card-deck-data",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node tests/run-validation.mjs && node tests/run-setup-validation.mjs && node tests/run-hand-validation.mjs && node tests/run-assignment-validation.mjs && node tests/run-hand-evaluator-validation.mjs && node tests/run-five-card-matcher-report.mjs && node tests/run-five-card-probability-report.mjs && node tests/run-attendance-probability-validation.mjs && node tests/run-seven-card-probability-validation.mjs && node tests/run-ranking-validation.mjs && node tests/run-ui-structure-validation.mjs",
+    "validate:deck": "node tests/run-validation.mjs",
+    "validate:setup": "node tests/run-setup-validation.mjs",
+    "snapshot": "node tests/export-snapshot.mjs",
+    "validate:hands": "node tests/run-hand-validation.mjs",
+    "snapshot:hands": "node tests/export-hand-definitions.mjs",
+    "validate:assignment": "node tests/run-assignment-validation.mjs",
+    "validate:evaluators": "node tests/run-hand-evaluator-validation.mjs",
+    "validate:five-card": "node tests/run-five-card-probability-report.mjs",
+    "validate:five-card-matchers": "node tests/run-five-card-matcher-report.mjs",
+    "validate:attendance": "node tests/run-attendance-probability-validation.mjs",
+    "validate:holdem": "node tests/run-seven-card-probability-validation.mjs && node tests/run-ranking-validation.mjs",
+    "precompute:holdem": "node tools/generate_holdem_cpp_header.mjs && g++ -O3 -std=c++17 tools/precompute_holdem_poker.cpp -o tools/precompute_holdem_poker && tools/precompute_holdem_poker holdem-poker-counts.json && g++ -O3 -std=c++17 tools/precompute_holdem_relational_grouped.cpp -o tools/precompute_holdem_relational_grouped && tools/precompute_holdem_relational_grouped holdem-relational-counts.json && g++ -O3 -std=c++17 tools/precompute_holdem_same_suit.cpp -o tools/precompute_holdem_same_suit && tools/precompute_holdem_same_suit holdem-same-suit-counts.json && node tools/build_holdem_precomputed_module.mjs"
+  }
+}

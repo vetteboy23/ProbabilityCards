@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Card Deck Validation</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.5; }
+    pre { white-space: pre-wrap; padding: 1rem; border: 1px solid #bbb; border-radius: 0.5rem; }
+    .pass { border-color: #287a3d; }
+    .fail { border-color: #a22; }
+  </style>
+</head>
+<body>
+  <h1>Family Card Deck Validation</h1>
+  <p>This page validates the browser-ready deck data.</p>
+  <pre id="report">Running validation…</pre>
+
+  <script type="module">
+    import { validateDeckData, formatValidationReport } from "./src/validateDeck.js";
+
+    const report = validateDeckData();
+    const element = document.querySelector("#report");
+    element.textContent = formatValidationReport(report);
+    element.className = report.passed ? "pass" : "fail";
+  </script>
+</body>
+</html>
